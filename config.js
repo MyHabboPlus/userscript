@@ -2,7 +2,7 @@
 
 
 // Update system
-var prefRelease="1.1a2";
+var prefRelease="1.1a3";
 
 if(GM_getValue("prefUpdateFreq")){
 	var prefUpdateFreq=GM_getValue("prefUpdateFreq"); //User
