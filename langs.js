@@ -12,8 +12,11 @@ function loadLang() {
                 myhpLang="fr"; // Français
         }else if(prefLang=="it"){
                 myhpLang="it"; // Italiano
-         }else if(prefLang=="de"){
+        }else if(prefLang=="de"){
                 myhpLang="de"; // Deutsch
+        }else if(prefLang=="tr"){
+                myhpLang="tr"; // Deutsch
+        }
         }else{
                 myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
         }
@@ -316,7 +319,69 @@ function loadLang() {
                         "UpdaterNoText": "Nicht bestimmt keine Updates. Sie sind mit der neuesten Version von MyHabboPlus.",
                         "UpdaterErrorTitle": "Fehlgeschlagen Updates finden",
                         "UpdaterErrorText": "Es ist nicht möglich, auf den Update-Kanal zu verbinden."
-                };                 
+                };
+         }else if(myhpLang=="tr") {
+             // Türk by moltax-B4N
+
+             text= {
+                        "Close": "Yakın",
+                        "Error": "Hata",
+                        "NoConnect": "Bağlantı Hatası.",
+                        "Loading": "Yükleme...",
+                        "Hour": "Zaman",
+                        "Hours": "Saat",
+                        "Day": "Gün",
+                        "Days": "Günler",
+                        "Week": "Hafta",
+                        "Weeks": "Hafta",
+                        "Never": "Asla",
+
+                        "LightboxTitle": "Dikkat!",
+                        "Preferences": "Tercihleri",
+                        "PreferencesGeneral": "Genel",
+                        "PreferencesVersion": "Eğer çalışan versiyonu",
+                        "PreferencesUpdate": "Güncellemeleri kontrol",
+                        "PreferencesUpdateFreq": "Güncellemeleri arama frekansı",
+                        "PreferencesUpdateChannel": "Kanal yükseltme",
+                        "PreferencesUpdateChannelRelease": "Son sürümleri (Önerilen)",
+                        "PreferencesUpdateChannelBeta": "Beta",
+                        "PreferencesUpdateChannelCustom": "Özel (uzmanlar için)",
+                        "Language": "Dil",
+                        "LanguageAuto": "otomatik olarak algılar",
+                        "PreferencesModules": "Modüller",
+                        "PreferencesTheme": "Alternatif konu",
+                        "PreferencesHomeInfo": "Habbo ev hakkında bilgi",
+                        "PreferencesHabboSearch": "Arama habbos",
+                        "PreferencesNewArticles": "Yeni haberler uyar",
+                        "PreferencesTweet": "sayfalar tweets görüntülenir",
+
+                        "HomeInfoDetails": "Kullanıcı Bilgileri",    
+                        "HomeInfoNoExist": "Orada Bu Habbo.",             
+                        "HomeInfoAddFriend": "Arkadaş olarak ekle",
+                        "HomeInfoAddError": "arkadaş isteği gönderilirken bir hata oluştu.",                                       
+                        "HomeInfoDate": "Habbo In beri",
+                        "HomeInfoStatus": "Devlet:",
+                        "HomeInfoLastVisit": "Son erişim:",
+                        "HomeInfoFriends": "Arkadaşlar",
+                        "HomeInfoFriendSearch": "Arama...",
+                        "HomeInfoBadges": "Plakalar",
+
+                        "HabboSearchPlaceholder": "Arama Habbo...",
+
+                        "NewArticles": "Daha fazla haber uyarı",
+                        "NewArticlesSearching": "Yeni haber arıyor...",
+                        "NewArticlesTitle": "Yeni Hikaye!",
+                        "NewArticlesDetected": "Bulunan Haber Öğeleri, burada vermek.",
+
+                        "UpdaterNewTitle": "Yeni Güncelleme",
+                        "UpdaterNewText": "keşfedilen yükseltme:",
+                        "UpdaterUpdate": "Şimdi güncellemek",
+                        "UpdaterNoTitle": "yeni güncellemeler",
+                        "UpdaterNoText": "Hiçbir güncellemeyi algılanmadı. Sen MyHabboPlus en son sürümünü çalıştıran.",
+                        "UpdaterErrorTitle": "Güncelleştirmelerini bulmak için başarısız oldu",
+                        "UpdaterErrorText": "Bu güncelleştirme kanalına bağlamak mümkün olmamıştır."
+                };
+
         }else{
                 // English
 
