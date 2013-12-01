@@ -10,6 +10,8 @@ function loadLang() {
                 myhpLang="pt"; // Portuguese
         }else if(prefLang=="fr"){
                 myhpLang="fr"; // Français
+        }else if(prefLang=="it"){
+                myhpLang="it"; // Italiano
         }else{
                 myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
         }
@@ -74,65 +76,65 @@ function loadLang() {
                         "UpdaterErrorText": "No ha sido posible conectar con el canal de actualización."
                 };
         }else if(myhpLang=="pt") {
-			 // Portuguese by ,desativaado.
-                text= {
-                        "Close": "Fechar",
-                "Error": "Erro",
-                "NoConnect": "Erro de conexão",
-                "Loading": "Carregando...",
-                "Hour": "Hora",
-                "Hours": "Horas",
-                "Day": "Dia",
-                "Days": "Dias",
-                "Week": "Semana",
-                "Weeks": "Semanas",
-                "Never": "Nunca",
+			 	// Portuguese by ,desativaado.
+		                text= {
+		                        "Close": "Fechar",
+		                "Error": "Erro",
+		                "NoConnect": "Erro de conexão",
+		                "Loading": "Carregando...",
+		                "Hour": "Hora",
+		                "Hours": "Horas",
+		                "Day": "Dia",
+		                "Days": "Dias",
+		                "Week": "Semana",
+		                "Weeks": "Semanas",
+		                "Never": "Nunca",
 
-                "LightboxTitle": "Atenção!",
-                "Preferences": "Preferências",
-                "PreferencesGeneral": "Geral",
-                "PreferencesVersion": "Você está executando a versão",
-                "PreferencesUpdate": "Procurar por atualizações",
-                "PreferencesUpdateFreq": "Atualizações frequentes",
-                "PreferencesUpdateChannel": "Atualização de canais",
-                "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
-                "PreferencesUpdateChannelBeta": "Beta",
-                "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
-                "Language": "Idioma",
-                "LanguageAuto": "Detecção automática",
-                "PreferencesModules": "Módulos",
-                "PreferencesTheme": "Tema alternativo",
-                "PreferencesHomeInfo": "Informação do Habbo",
-                "PreferencesHabboSearch": "Pesquise por usuário Habbo",
-                "PreferencesNewArticles": "Alerta para novos artigos",
-                "PreferencesTweet": "Mostrar tweets de fã sites",
+		                "LightboxTitle": "Atenção!",
+		                "Preferences": "Preferências",
+		                "PreferencesGeneral": "Geral",
+		                "PreferencesVersion": "Você está executando a versão",
+		                "PreferencesUpdate": "Procurar por atualizações",
+		                "PreferencesUpdateFreq": "Atualizações frequentes",
+		                "PreferencesUpdateChannel": "Atualização de canais",
+		                "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
+		                "PreferencesUpdateChannelBeta": "Beta",
+		                "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
+		                "Language": "Idioma",
+		                "LanguageAuto": "Detecção automática",
+		                "PreferencesModules": "Módulos",
+		                "PreferencesTheme": "Tema alternativo",
+		                "PreferencesHomeInfo": "Informação do Habbo",
+		                "PreferencesHabboSearch": "Pesquise por usuário Habbo",
+		                "PreferencesNewArticles": "Alerta para novos artigos",
+		                "PreferencesTweet": "Mostrar tweets de fã sites",
 
-                "HomeInfoDetails": "Detalhes do usuário",
-                "HomeInfoNoExist": "Este Habbo não existe.",
-                "HomeInfoAddFriend": "Adicionar como amigo",
-                "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
-                "HomeInfoDate": "Sou usuário Habbo desde:",
-                "HomeInfoStatus": "Status:",
-                "HomeInfoLastVisit": "Último login:",
-                "HomeInfoFriends": "Friends",
-                "HomeInfoFriendSearch": "Pesquisar...",
-                "HomeInfoBadges": "Emblemas",
+		                "HomeInfoDetails": "Detalhes do usuário",
+		                "HomeInfoNoExist": "Este Habbo não existe.",
+		                "HomeInfoAddFriend": "Adicionar como amigo",
+		                "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
+		                "HomeInfoDate": "Sou usuário Habbo desde:",
+		                "HomeInfoStatus": "Status:",
+		                "HomeInfoLastVisit": "Último login:",
+		                "HomeInfoFriends": "Friends",
+		                "HomeInfoFriendSearch": "Pesquisar...",
+		                "HomeInfoBadges": "Emblemas",
 
-                "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
+		                "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
 
-                "NewArticles": "Alerta para novos artigos",
-                "NewArticlesSearching": "Pesquisando novos artigos...",
-                "NewArticlesTitle": "Nova notícia!",
-                "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
+		                "NewArticles": "Alerta para novos artigos",
+		                "NewArticlesSearching": "Pesquisando novos artigos...",
+		                "NewArticlesTitle": "Nova notícia!",
+		                "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
 
-                "UpdaterNewTitle": "Nova atualização",
-                "UpdaterNewText": "Nova atualização encontrada:",
-                "UpdaterUpdate": "Atualize agora",
-                "UpdaterNoTitle": "Não há novas atualização",
-                "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
-                "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
-                "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
-              }
+		                "UpdaterNewTitle": "Nova atualização",
+		                "UpdaterNewText": "Nova atualização encontrada:",
+		                "UpdaterUpdate": "Atualize agora",
+		                "UpdaterNoTitle": "Não há novas atualização",
+		                "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
+		                "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
+		                "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
+		              }
                 
         }else if(myhpLang=="fr") {
 			 // French by Matou19
@@ -194,6 +196,67 @@ function loadLang() {
                         "UpdaterErrorTitle": "Erreur de recherche de nouvelles mises à jour",
                         "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
               }
+        }else if(myhpLang=="it") {
+			 // Italiano by Gabbo...
+     				text= {
+                            "Close": "Chiudi",
+                            "Error": "Errore",
+                            "NoConnect": "Errore di connessione.",
+                            "Loading": "Caricamento...",
+                            "Hour": "Ora",
+                            "Hours": "Ore",
+                            "Day": "Giorno",
+                            "Days": "Giorni",
+                            "Week": "Settimana",
+                            "Weeks": "Settimane",
+                            "Never": "Mai",
+     
+                            "LightboxTitle": "Attenzione!",
+                            "Preferences": "Opzioni",
+                            "PreferencesGeneral": "Generale",
+                            "PreferencesVersion": "Stai usando la versine",
+                            "PreferencesUpdate": "Cerca aggiornamenti",
+                            "PreferencesUpdateFreq": "Frequenza di aggiornamento",
+                            "PreferencesUpdateChannel": "Tipo di versione",
+                            "PreferencesUpdateChannelRelease": "Versione finale (Consigliato)",
+                            "PreferencesUpdateChannelBeta": "Beta",
+                            "PreferencesUpdateChannelCustom": "Personalizzato (Esperti)",
+                            "Language": "Lingua",
+                            "LanguageAuto": "Identificazione Auto",
+                            "PreferencesModules": "Modules",
+                            "PreferencesTheme": "Tema alternativo",
+                            "PreferencesHomeInfo": "Habbo Home Info",
+                            "PreferencesHabboSearch": "Habbo Search",
+                            "PreferencesNewArticles": "Alert per Nuovi articoli",
+                            "PreferencesTweet": "Mostra i Tweet dei Fansites",
+     
+                            "HomeInfoDetails": "Informazioni Habbo",
+                            "HomeInfoNoExist": "Questo Habbo non esiste",
+                            "HomeInfoAddFriend": "Aggiungi come amico",
+                            "HomeInfoAddError": "C'è stato un errore. Riprova",
+                            "HomeInfoDate": "In Habbo Dal:",
+                            "HomeInfoStatus": "Stato:",
+                            "HomeInfoLastVisit": "Ultimo accesso:",
+                            "HomeInfoFriends": "Amici",
+                            "HomeInfoFriendSearch": "Cerca...",
+                            "HomeInfoBadges": "Distintivi",
+     
+                            "HabboSearchPlaceholder": "Cerca un Habbo!",
+     
+                            "NewArticles": "Alert per Nuovi articoli",
+                            "NewArticlesSearching": "Sto cercando nuovi articoli...",
+                            "NewArticlesTitle": "Nuovo Articolo!",
+                            "NewArticlesDetected": "Nuovo articolo trovato! Clicca qui",
+     
+                            "UpdaterNewTitle": "Nuovo update",
+                            "UpdaterNewText": "Nuovo update trovato:",
+                            "UpdaterUpdate": "Aggiorna ora",
+                            "UpdaterNoTitle": "Non ci sono aggiornamenti",
+                            "UpdaterNoText": "Non sono stati trovati aggiornamenti! Al momento usi l'ultima versione di MyHabboPlus",
+                            "UpdaterErrorTitle": "Errore di ricerca",
+                            "UpdaterErrorText": "Non è stata possibile la connessione."
+                         }
+
         }else{
                 // English
 
