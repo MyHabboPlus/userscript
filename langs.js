@@ -16,7 +16,6 @@ function loadLang() {
                 myhpLang="de"; // Deutsch
         }else if(prefLang=="tr"){
                 myhpLang="tr"; // Deutsch
-        }
         }else{
                 myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
         }
