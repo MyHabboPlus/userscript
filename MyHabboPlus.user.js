@@ -3,11 +3,11 @@
 // @name        MyHabboPlus
 // @namespace   http://myhabboplus.com
 // @description Userscript for Habbo Hotel
-// @version     1.0
+// @version     1.1a5
 // @author		iButton
 // @author		Tetule
 
-// @icon        https://raw.github.com/MyHabboPlus/userscript/release/img/favicon.png
+// @icon        https://raw.github.com/MyHabboPlus/userscript/dev/img/favicon.png
 // @include     http://www.habbo.es/*
 // @include     https://www.habbo.es/*
 // @include     http://www.habbo.com/*
@@ -46,15 +46,15 @@
 // @grant       GM_getResourceText
 // @grant       GM_getResourceURL
 // @grant       GM_xmlhttpRequest
-// @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/release/css/newhabbo.css
-// @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/release/css/myhabboplus.css
-// @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/release/img/sprites.png
+// @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/dev/css/newhabbo.css
+// @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/dev/css/myhabboplus.css
+// @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/dev/img/sprites.png
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/config.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/langs.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/modules/system.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/modules/updater.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/modules/habboHome.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/modules/habboSearch.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/release/modules/newArticles.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/config.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/langs.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/system.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/updater.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/habboHome.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/habboSearch.js
+// @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/newArticles.js
 // ==/UserScript==

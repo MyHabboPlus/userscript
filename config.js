@@ -1,8 +1,13 @@
 // MyHabboPlus  Configuration
 
+var prefRelease;
+if(typeof GM_info != "undefined"){
+	prefRelease=GM_info.script.version;
+}else if(typeof GM_getMetadata != "undefined"){
+	prefRelease=GM_getMetadata('version');
+}
 
 // Update system
-var prefRelease="1.0";
 
 if(GM_getValue("prefUpdateFreq")){
 	var prefUpdateFreq=GM_getValue("prefUpdateFreq"); //User
@@ -13,7 +18,7 @@ if(GM_getValue("prefUpdateFreq")){
 if(GM_getValue("prefUpdateChannel")){
 	var prefUpdateChannel=GM_getValue("prefUpdateChannel"); //User
 }else{
-	var prefUpdateChannel="release"; //Default
+	var prefUpdateChannel="dev"; //Default
 }
 
 if(GM_getValue("prefUpdateCustomChannel")){
