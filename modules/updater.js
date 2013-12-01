@@ -28,4 +28,4 @@ onload: function(about) {
 });
 
 }
-if(prefUpdateLast + prefUpdateFreq <= time){myhpUpdater("yes");} // Search auto updates
+if(1*prefUpdateLast+1*prefUpdateFreq < time){myhpUpdater("yes");} // Search auto updates
