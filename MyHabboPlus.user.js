@@ -3,7 +3,7 @@
 // @name        MyHabboPlus
 // @namespace   http://myhabboplus.com
 // @description Userscript for Habbo Hotel
-// @version     1.1a1
+// @version     1.1a2
 // @author		iButton
 // @author		Tetule
 
