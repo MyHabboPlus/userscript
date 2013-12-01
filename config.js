@@ -2,7 +2,7 @@
 
 
 // Update system
-var prefRelease="1.0";
+var prefRelease="1.0.1b0";
 
 if(GM_getValue("prefUpdateFreq")){
 	var prefUpdateFreq=GM_getValue("prefUpdateFreq"); //User
@@ -13,7 +13,7 @@ if(GM_getValue("prefUpdateFreq")){
 if(GM_getValue("prefUpdateChannel")){
 	var prefUpdateChannel=GM_getValue("prefUpdateChannel"); //User
 }else{
-	var prefUpdateChannel="release"; //Default
+	var prefUpdateChannel="beta"; //Default
 }
 
 if(GM_getValue("prefUpdateCustomChannel")){
