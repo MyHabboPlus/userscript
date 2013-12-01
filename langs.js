@@ -12,6 +12,8 @@ function loadLang() {
                 myhpLang="fr"; // Français
         }else if(prefLang=="it"){
                 myhpLang="it"; // Italiano
+         }else if(prefLang=="de"){
+                myhpLang="de"; // Deutsch
         }else{
                 myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
         }
@@ -134,8 +136,7 @@ function loadLang() {
 		                "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
 		                "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
 		                "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
-		              }
-                
+		              }; 
         }else if(myhpLang=="fr") {
 			 // French by Matou19
                         text= {
@@ -195,7 +196,7 @@ function loadLang() {
                         "UpdaterNoText": "Aucune mise à jour à effectuer. Vous utilisez la dernière version.",
                         "UpdaterErrorTitle": "Erreur de recherche de nouvelles mises à jour",
                         "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
-              }
+              };
         }else if(myhpLang=="it") {
 			 // Italiano by Gabbo...
      				text= {
@@ -255,8 +256,67 @@ function loadLang() {
                             "UpdaterNoText": "Non sono stati trovati aggiornamenti! Al momento usi l'ultima versione di MyHabboPlus",
                             "UpdaterErrorTitle": "Errore di ricerca",
                             "UpdaterErrorText": "Non è stata possibile la connessione."
-                         }
-
+                         };
+         }else if(myhpLang=="de") {
+         	// Deutsch by Skyki
+        	text= {
+                        "Close": "Schließen",
+                        "Error": "Fehler",
+                        "NoConnect": "Verbindungsfehler.",
+                        "Loading": "Verladung...",
+                        "Hour": "Zeit",
+                        "Hours": "Stunden ",
+                        "Day": "Tag",
+                        "Days": "Tage",
+                        "Week": "Woche",
+                        "Weeks": "Woche",
+                        "Never": "Nie",
+ 
+                        "LightboxTitle": "Aufmerksamkeit!",
+                        "Preferences": "Einstellungen",
+                        "PreferencesGeneral": "Allgemein",
+                        "PreferencesVersion": "Sie führen Version",
+                        "PreferencesUpdate": "Nach Updates suchen ",
+                        "PreferencesUpdateFreq": "Suche nach Häufigkeit der Updates",
+                        "PreferencesUpdateChannel": "Kanalaktualisierung ",
+                        "PreferencesUpdateChannelRelease": "Finale Versionen (empfohlen)",
+                        "PreferencesUpdateChannelBeta": "Beta",
+                        "PreferencesUpdateChannelCustom": "Benutzerdefinierte (für Experten)",
+                        "Language": "Sprache",
+                        "LanguageAuto": "Automatisch erkennen ",
+                        "PreferencesModules": "Module",
+                        "PreferencesTheme": "Alternative Theme",
+                        "PreferencesHomeInfo": "Informationen Habbo Home",
+                        "PreferencesHabboSearch": "Suche Habbos",
+                        "PreferencesNewArticles": "Benachrichtigung für neue Nachrichten",
+                        "PreferencesTweet": "Tweets anzeigen Fan web",
+ 
+                        "HomeInfoDetails": "Benutzerdetails",
+                        "HomeInfoNoExist": "Dieser Habbo nicht.",
+                        "HomeInfoAddFriend": "Als Freund hinzufügen",
+                        "HomeInfoAddError": "Es ist ein Fehler Senden der Anfrage Freund gewesen.",
+                        "HomeInfoDate": "In Habbo ab:",
+                        "HomeInfoStatus": "Staat:",
+                        "HomeInfoLastVisit": "Último acceso:",
+                        "HomeInfoFriends": " Letzter Zugang:",
+                        "HomeInfoFriendSearch": "Suche...",
+                        "HomeInfoBadges": "Abzeichen",
+ 
+                        "HabboSearchPlaceholder": "Suche Habbo...",
+ 
+                        "NewArticles": "Benachrichtigung für neue Nachrichten ",
+                        "NewArticlesSearching": "Suchen Sie nach neuen Nachrichten...",
+                        "NewArticlesTitle": "Neue Nachrichten!",
+                        "NewArticlesDetected": "Neue Nachrichten gefunden. Klicken Sie hier.",
+ 
+                        "UpdaterNewTitle": "Neues Update",
+                        "UpdaterNewText": "Neues Update gefunden:",
+                        "UpdaterUpdate": "Jetzt aktualisieren",
+                        "UpdaterNoTitle": "Keine neuen Updates",
+                        "UpdaterNoText": "Nicht bestimmt keine Updates. Sie sind mit der neuesten Version von MyHabboPlus.",
+                        "UpdaterErrorTitle": "Fehlgeschlagen Updates finden",
+                        "UpdaterErrorText": "Es ist nicht möglich, auf den Update-Kanal zu verbinden."
+                };                 
         }else{
                 // English
 
