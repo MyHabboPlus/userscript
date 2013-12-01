@@ -74,6 +74,7 @@ function loadLang() {
                         "UpdaterErrorText": "No ha sido posible conectar con el canal de actualización."
                 };
         }else if(myhpLang=="pt") {
+			 // Portuguese by ,desativaado.
                 text= {
                         "Close": "Fechar",
                 "Error": "Erro",
@@ -132,11 +133,9 @@ function loadLang() {
                 "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
                 "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
               }
-        }else{
-                // French
                 
         }else if(myhpLang=="fr") {
-                text= {
+			 // French by Matou19
                         text= {
                         "Close": "Fermer",
                         "Error": "Erreur",
