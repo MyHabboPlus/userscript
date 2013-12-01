@@ -352,7 +352,7 @@ function loadLang() {
                         "PreferencesHomeInfo": "Habbo ev hakkında bilgi",
                         "PreferencesHabboSearch": "Arama habbos",
                         "PreferencesNewArticles": "Yeni haberler uyar",
-                        "PreferencesTweet": "sayfalar tweets görüntülenir",
+                        "PreferencesTweet": "Sayfalar tweets görüntülenir",
 
                         "HomeInfoDetails": "Kullanıcı Bilgileri",    
                         "HomeInfoNoExist": "Orada Bu Habbo.",             
