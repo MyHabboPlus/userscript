@@ -1,8 +1,13 @@
 // MyHabboPlus  Configuration
 
+var prefRelease;
+if(typeof GM_getMetadata != "undefined"){
+	prefRelease=GM_getMetadata('version')[0];
+}else if(typeof GM_info != "undefined"){
+	prefRelease=GM_info.script.version;
+}
 
 // Update system
-var prefRelease="1.0";
 
 if(GM_getValue("prefUpdateFreq")){
 	var prefUpdateFreq=GM_getValue("prefUpdateFreq"); //User
