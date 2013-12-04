@@ -18,7 +18,7 @@ if(GM_getValue("prefUpdateFreq")){
 if(GM_getValue("prefUpdateChannel")){
 	var prefUpdateChannel=GM_getValue("prefUpdateChannel"); //User
 }else{
-	var prefUpdateChannel="beta"; //Default
+	var prefUpdateChannel="release"; //Default
 }
 
 if(GM_getValue("prefUpdateCustomChannel")){
