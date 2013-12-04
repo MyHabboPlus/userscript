@@ -5,7 +5,7 @@ function myhpUpdater (autoUpdate) {
     if(prefUpdateChannel=="release"){updateURL="https://raw.github.com/MyHabboPlus/userscript/release/";}else if(prefUpdateChannel=="beta"){updateURL="https://raw.github.com/MyHabboPlus/userscript/beta/";}else{updateURL=prefUpdateCustomChannel;}
     GM_xmlhttpRequest({method: "GET", url:updateURL+"VERSION", 
 onload: function(about) {
-     version=about.responseText.replace("\n", "");
+     var version=about.responseText;
       if(version!=prefRelease){
             myhpLightbox("standard", text["UpdaterNewTitle"], text["UpdaterNewText"]+' <strong>'+version+'</strong><br><button id="updater-button">'+text["UpdaterUpdate"]+'</button>');
             $("body").on("click", "#updater-button", function(){
@@ -19,7 +19,6 @@ onload: function(about) {
             prefUpdateLast=time+'';
             GM_setValue("prefUpdateLast", prefUpdateLast);
         }else{
-            prefUpdateLast=time+'';
             myhpLightbox("alert", text["UpdaterNoTitle"], text["UpdaterNoText"]);
         }
   }
@@ -29,4 +28,4 @@ onload: function(about) {
 });
 
 }
-if(1*prefUpdateLast+1*prefUpdateFreq < time){myhpUpdater("yes");} // Search auto updates
+if(prefUpdateLast + prefUpdateFreq <= time){myhpUpdater("yes");} // Search auto updates
