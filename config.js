@@ -6,7 +6,6 @@ if(typeof GM_getMetadata != "undefined"){
 }else if(typeof GM_info != "undefined"){
 	prefRelease=GM_info.script.version;
 }
-
 // Update system
 
 if(GM_getValue("prefUpdateFreq")){
