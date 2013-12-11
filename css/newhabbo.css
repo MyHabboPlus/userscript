@@ -4,14 +4,15 @@ body.newhabbo#viewmode, body.newhabbo#home, body.newhabbo#news, body.newhabbo#cb
 	background-color:#007498;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#0297c8 0,#007498 480px);
+	padding:0px !important;
 }
 
 body.newhabbo #header-container {
 	background:rgba(16, 16, 22, 0.85);
 	background-image:none;
-	width:100%;
+	width:100% !important;
 	padding:0px;
-	border-bottom:1px solid rgb(122, 163, 185);
+	box-shadow:0px 1px 0px 0px rgba(255,255,255, 0.25);
 	position:fixed;
 	top:0;
 	z-index:999;
@@ -177,7 +178,7 @@ body.newhabbo #navi2-container {
 	background:none;
 	padding:0px;
 	position:fixed;
-	top:105px;
+	top:104px;
 	z-index:999;
 	left:0;
 	right:0;
