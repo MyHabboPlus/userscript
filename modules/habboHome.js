@@ -22,13 +22,13 @@ if (window.top==window){
             habboHomeId=dir.match(/^\/home\/([0-9]+)\/id/)[1];
         }else{
             habboHome=dir.match(/^\/home\/(.*)/)[1];
-            $.ajax({url:site+"/habblet/ajax/habboid?habboIdName="+habboHome, async:false})
+            $.ajax({url:site+"/habblet/ajax/new_habboid?habboIdName="+habboHome, async:false})
             .done (function(data){ 
                 if(data.match(/\<ul class=\"errors\"\>/)){
                     $("#myhp-homeinfo").html(text["HomeInfoNoExist"]);
                     habboHomeFail=true;
                 }else{
-                    habboHomeId=data.match(/\<b\>(.*)\<\/b\>/);
+                    habboHomeId=data.match(/\<em\>(.*)\<\/em\>/);
                     habboHomeId=habboHomeId[1].replace(/ /g, "");
                 }
             })
