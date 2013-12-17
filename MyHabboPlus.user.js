@@ -3,7 +3,7 @@
 // @name        MyHabboPlus
 // @namespace   http://myhabboplus.com
 // @description Userscript for Habbo Hotel
-// @version     1.0.2
+// @version     1.0.3
 // @author		iButton
 // @author		Tetule
 // @icon        https://raw.github.com/MyHabboPlus/userscript/release/img/favicon.png
@@ -45,9 +45,9 @@
 // @grant       GM_getResourceText
 // @grant       GM_getResourceURL
 // @grant       GM_xmlhttpRequest
-// @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/release/css/newhabbo.css
-// @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/release/css/myhabboplus.css
-// @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/release/img/sprites.png
+// @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/beta/css/newhabbo.css
+// @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/beta/css/myhabboplus.css
+// @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/beta/img/sprites.png
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
 // @require     https://raw.github.com/MyHabboPlus/userscript/release/config.js
 // @require     https://raw.github.com/MyHabboPlus/userscript/release/langs.js
