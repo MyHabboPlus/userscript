@@ -2,7 +2,7 @@
 if (window.top==window){
     // Config texts
     if(prefNewHabbo=="1"){
-        $("body").addClass('newhabbo');
+        $("body").addClass('newhabbo').addClass(prefNewHabboColor);
         var CSSnewhabbo=GM_getResourceText("CSSnewhabbo");
         GM_addStyle(CSSnewhabbo);
     }
@@ -81,6 +81,28 @@ if (window.top==window){
     };
     var twitterHotel=hotel.replace('.', '-');
     
+    // Colorize
+    if(prefNewHabbo=="1"){
+        var selectDefault="invisible"; var selectPurple="invisible"; var selectPink="invisible"; var selectRed="invisible"; var selectOrange="invisible"; var selectYellow="invisible"; var selectGreen=" select-invisible"; var selectBlack="invisible"; var selectWhite="invisible";
+        if(prefNewHabboColor==""){selectDefault="selected";}else if(prefNewHabboColor=="color_purple"){selectPurple="selected";}else if(prefNewHabboColor=="color_pink"){selectPink="selected";}else if(prefNewHabboColor=="color_red"){selectRed="selected";}else if(prefNewHabboColor=="color_orange"){selectOrange="selected";}else if(prefNewHabboColor=="color_yellow"){selectYellow="selected";}else if(prefNewHabboColor=="color_green"){selectGreen="selected";}else if(prefNewHabboColor=="color_green"){selectGreen="selected";}else if(prefNewHabboColor=="color_black"){selectBlack="selected";}else if(prefNewHabboColor=="color_white"){selectWhite="selected";}
+        
+        $("body.newhabbo #header.clearfix h1").after('<div id="select-color" title="'+text["ChangeColor"]+'"><div class="select-color select-'+selectDefault+'" id="color_default"></div><div class="select-color select-'+selectPurple+'" id="color_purple"></div><div class="select-color select-'+selectPink+'" id="color_pink"></div><div class="select-color select-'+selectRed+'" id="color_red"></div><div class="select-color select-'+selectOrange+'" id="color_orange"></div><div class="select-color select-'+selectYellow+'" id="color_yellow"></div><div class="select-color select-'+selectGreen+'" id="color_green"></div><div class="select-color select-'+selectBlack+'" id="color_black"></div><div class="select-color select-'+selectWhite+'" id="color_white"></div></div>');
+        
+        $("#select-color").on("click", ".select-color.select-selected", function(){
+            $("#select-color .select-color").removeClass("select-invisible");
+        });
+
+        $("#select-color").on("click", ".select-color", function(){
+            var selectColor=$(this).attr("id");
+            if(selectColor=="color_default"){
+                $("body").removeClass().addClass("newhabbo");
+                GM_setValue("prefNewHabboColor", "");
+            }else{
+                $("body").removeClass().addClass("newhabbo "+selectColor);
+                GM_setValue("prefNewHabboColor", selectColor);
+            }
+        });
+    }
     // Config module
     
     $("#habbos-online").after('<div id="myhp-button-config">'+text["Preferences"]+'<div class="myhp-button-config-name">MyHabboPlus</div></div>');

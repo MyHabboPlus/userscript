@@ -33,6 +33,7 @@ function loadLang() {
                         "Week": "Semana",
                         "Weeks": "Semanas",
                         "Never": "Nunca",
+                        "ChangeColor":"Cambiar de color",
 
                         "LightboxTitle": "¡Atención!",
                         "Preferences": "Preferencias",
@@ -80,67 +81,68 @@ function loadLang() {
                         "UpdaterErrorText": "No ha sido posible conectar con el canal de actualización."
                 };
         }else if(myhpLang=="pt") {
-			 	// Portuguese by ,desativaado.
-		                text= {
-		                        "Close": "Fechar",
-		                "Error": "Erro",
-		                "NoConnect": "Erro de conexão",
-		                "Loading": "Carregando...",
-		                "Hour": "Hora",
-		                "Hours": "Horas",
-		                "Day": "Dia",
-		                "Days": "Dias",
-		                "Week": "Semana",
-		                "Weeks": "Semanas",
-		                "Never": "Nunca",
+                // Portuguese by ,desativaado.
+                        text= {
+                                "Close": "Fechar",
+                        "Error": "Erro",
+                        "NoConnect": "Erro de conexão",
+                        "Loading": "Carregando...",
+                        "Hour": "Hora",
+                        "Hours": "Horas",
+                        "Day": "Dia",
+                        "Days": "Dias",
+                        "Week": "Semana",
+                        "Weeks": "Semanas",
+                        "Never": "Nunca",
+                        "ChangeColor":"Change color", /*CHANGE*/
 
-		                "LightboxTitle": "Atenção!",
-		                "Preferences": "Preferências",
-		                "PreferencesGeneral": "Geral",
-		                "PreferencesVersion": "Você está executando a versão",
-		                "PreferencesUpdate": "Procurar por atualizações",
-		                "PreferencesUpdateFreq": "Atualizações frequentes",
-		                "PreferencesUpdateChannel": "Atualização de canais",
-		                "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
-		                "PreferencesUpdateChannelBeta": "Beta",
-		                "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
-		                "Language": "Idioma",
-		                "LanguageAuto": "Detecção automática",
-		                "PreferencesModules": "Módulos",
-		                "PreferencesTheme": "Tema alternativo",
-		                "PreferencesHomeInfo": "Informação do Habbo",
-		                "PreferencesHabboSearch": "Pesquise por usuário Habbo",
-		                "PreferencesNewArticles": "Alerta para novos artigos",
-		                "PreferencesTweet": "Mostrar tweets de fã sites",
+                        "LightboxTitle": "Atenção!",
+                        "Preferences": "Preferências",
+                        "PreferencesGeneral": "Geral",
+                        "PreferencesVersion": "Você está executando a versão",
+                        "PreferencesUpdate": "Procurar por atualizações",
+                        "PreferencesUpdateFreq": "Atualizações frequentes",
+                        "PreferencesUpdateChannel": "Atualização de canais",
+                        "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
+                        "PreferencesUpdateChannelBeta": "Beta",
+                        "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
+                        "Language": "Idioma",
+                        "LanguageAuto": "Detecção automática",
+                        "PreferencesModules": "Módulos",
+                        "PreferencesTheme": "Tema alternativo",
+                        "PreferencesHomeInfo": "Informação do Habbo",
+                        "PreferencesHabboSearch": "Pesquise por usuário Habbo",
+                        "PreferencesNewArticles": "Alerta para novos artigos",
+                        "PreferencesTweet": "Mostrar tweets de fã sites",
 
-		                "HomeInfoDetails": "Detalhes do usuário",
-		                "HomeInfoNoExist": "Este Habbo não existe.",
-		                "HomeInfoAddFriend": "Adicionar como amigo",
-		                "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
-		                "HomeInfoDate": "Sou usuário Habbo desde:",
-		                "HomeInfoStatus": "Status:",
-		                "HomeInfoLastVisit": "Último login:",
-		                "HomeInfoFriends": "Friends",
-		                "HomeInfoFriendSearch": "Pesquisar...",
-		                "HomeInfoBadges": "Emblemas",
+                        "HomeInfoDetails": "Detalhes do usuário",
+                        "HomeInfoNoExist": "Este Habbo não existe.",
+                        "HomeInfoAddFriend": "Adicionar como amigo",
+                        "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
+                        "HomeInfoDate": "Sou usuário Habbo desde:",
+                        "HomeInfoStatus": "Status:",
+                        "HomeInfoLastVisit": "Último login:",
+                        "HomeInfoFriends": "Friends",
+                        "HomeInfoFriendSearch": "Pesquisar...",
+                        "HomeInfoBadges": "Emblemas",
 
-		                "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
+                        "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
 
-		                "NewArticles": "Alerta para novos artigos",
-		                "NewArticlesSearching": "Pesquisando novos artigos...",
-		                "NewArticlesTitle": "Nova notícia!",
-		                "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
+                        "NewArticles": "Alerta para novos artigos",
+                        "NewArticlesSearching": "Pesquisando novos artigos...",
+                        "NewArticlesTitle": "Nova notícia!",
+                        "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
 
-		                "UpdaterNewTitle": "Nova atualização",
-		                "UpdaterNewText": "Nova atualização encontrada:",
-		                "UpdaterUpdate": "Atualize agora",
-		                "UpdaterNoTitle": "Não há novas atualização",
-		                "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
-		                "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
-		                "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
-		              }; 
+                        "UpdaterNewTitle": "Nova atualização",
+                        "UpdaterNewText": "Nova atualização encontrada:",
+                        "UpdaterUpdate": "Atualize agora",
+                        "UpdaterNoTitle": "Não há novas atualização",
+                        "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
+                        "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
+                        "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
+                      }; 
         }else if(myhpLang=="fr") {
-			 // French by Matou19
+             // French by Matou19
                         text= {
                         "Close": "Fermer",
                         "Error": "Erreur",
@@ -153,6 +155,7 @@ function loadLang() {
                         "Week": "Semaine",
                         "Weeks": "Semaine",
                         "Never": "Jamais",
+                        "ChangeColor":"Change color", /*CHANGE*/
  
                         "LightboxTitle": "Attention!",
                         "Preferences": "Préférence",
@@ -200,8 +203,8 @@ function loadLang() {
                         "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
               };
         }else if(myhpLang=="it") {
-			 // Italiano by Gabbo...
-     				text= {
+             // Italiano by Gabbo...
+                    text= {
                             "Close": "Chiudi",
                             "Error": "Errore",
                             "NoConnect": "Errore di connessione.",
@@ -213,6 +216,7 @@ function loadLang() {
                             "Week": "Settimana",
                             "Weeks": "Settimane",
                             "Never": "Mai",
+                            "ChangeColor":"Change color", /*CHANGE*/
      
                             "LightboxTitle": "Attenzione!",
                             "Preferences": "Opzioni",
@@ -260,8 +264,8 @@ function loadLang() {
                             "UpdaterErrorText": "Non è stata possibile la connessione."
                          };
          }else if(myhpLang=="de") {
-         	// Deutsch by Skyki
-        	text= {
+            // Deutsch by Skyki
+            text= {
                         "Close": "Schließen",
                         "Error": "Fehler",
                         "NoConnect": "Verbindungsfehler.",
@@ -273,6 +277,7 @@ function loadLang() {
                         "Week": "Woche",
                         "Weeks": "Woche",
                         "Never": "Nie",
+                        "ChangeColor":"Change color", /*CHANGE*/
  
                         "LightboxTitle": "Aufmerksamkeit!",
                         "Preferences": "Einstellungen",
@@ -334,6 +339,7 @@ function loadLang() {
                         "Week": "Hafta",
                         "Weeks": "Hafta",
                         "Never": "Asla",
+                        "ChangeColor":"Change color", /*CHANGE*/
 
                         "LightboxTitle": "Dikkat!",
                         "Preferences": "Tercihleri",
@@ -396,6 +402,7 @@ function loadLang() {
                         "Week": "Week",
                         "Weeks": "Weeks",
                         "Never": "Never",
+                        "ChangeColor":"Change color",
 
                         "LightboxTitle": "Attention!",
                         "Preferences": "Preferences",

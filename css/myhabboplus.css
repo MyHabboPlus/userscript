@@ -105,14 +105,19 @@ a.nodecoration {
 }
 
 .myhp-div-header {
-	background-color:#009dff;
-	padding:3px 0px;
-	margin:-6px -6px 8px -6px;
-	font-size:14px;
+	background: #595959; background: -moz-linear-gradient(top,  #595959 0%, #4d4d4d 50%, #404040 51%, #333333 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(50%,#4d4d4d), color-stop(51%,#404040), color-stop(100%,#333333)); background: -webkit-linear-gradient(top,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%); background: -ms-linear-gradient(top,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%); background: linear-gradient(to bottom,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%);
+	height:auto;
+	padding:4px 0px !important;
+	margin:-10px -10px 10px -10px;
+	border-bottom:1px solid #000000;
+	border-radius:3px 3px 0px 0px;
+	box-shadow:inset 0px 1px 0px 0px #737373;
+	text-shadow:0px 1px 0px #000000;
+	font-size:13px;
+	line-height:normal;
+	color:#ffffff;
 	font-weight:bold;
 	text-align:center;
-	color:#FFFFFF;
-	border-radius:4px;
 }
 
 @keyframes lightbox-bounce {
@@ -556,4 +561,68 @@ p.avatar-list-birthday {
 
 #updater-button {
 	margin-top:4px;
+}
+
+#select-color {
+	float:left;
+	margin:31px 16px;
+	overflow:hidden;
+}
+
+.select-color {
+	width:14px;
+	height:14px;
+	float:left;
+	margin-right:6px;
+	border-radius:50%;
+	box-shadow:inset 0px 6px 1px 0px rgba(255,255,255,0.4);
+	cursor:pointer;
+	transition:opacity 1.5s;
+}
+
+.select-color.select-invisible {
+	width:0px;
+	box-shadow:none;
+	opacity:0;
+	margin:0px;
+}
+
+.select-color.select-selected {
+	
+}
+
+.select-color#color_default {
+	background:#007498;
+}
+
+.select-color#color_purple {
+	background:#8a5a96;
+}
+
+.select-color#color_pink {
+	background:#c1748c;
+}
+
+.select-color#color_red {
+	background:#ad353b;
+}
+
+.select-color#color_orange {
+	background:#e18f53;
+}
+
+.select-color#color_yellow {
+	background:#d6be43;
+}
+
+.select-color#color_green {
+	background:#70b338;
+}
+
+.select-color#color_black {
+	background:#343434;
+}
+
+.select-color#color_white {
+	background:#cbcbcb;
 }
