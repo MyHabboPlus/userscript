@@ -64,6 +64,11 @@ function loadLang() {
                         "HomeInfoFriends": "Amigos",
                         "HomeInfoFriendSearch": "Buscar...",
                         "HomeInfoBadges": "Placas",
+                        "HomeInfoRooms": "Salas",
+                        "HomeInfoNoRooms": "No tienes Salas",
+                        "HomeInfoGroups": "Grupos",
+                        "HomeInfoNoGroups": "No eres miembro de ningún Grupo",
+                        "HomeInfoRatings": "Votos",
 
                         "HabboSearchPlaceholder": "Buscar Habbo...",
 
@@ -125,6 +130,11 @@ function loadLang() {
                         "HomeInfoFriends": "Friends",
                         "HomeInfoFriendSearch": "Pesquisar...",
                         "HomeInfoBadges": "Emblemas",
+                        "HomeInfoRooms": "Quartos",
+                        "HomeInfoNoRooms": "Você ainda não tem nenhum Quarto.",
+                        "HomeInfoGroups": "Grupos",
+                        "HomeInfoNoGroups": "Você ainda não é membro de um Grupo.",
+                        "HomeInfoRatings": "Votos",
 
                         "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
 
@@ -186,6 +196,11 @@ function loadLang() {
                         "HomeInfoFriends": "Amis",
                         "HomeInfoFriendSearch": "Recherche...",
                         "HomeInfoBadges": "Badges",
+                        "HomeInfoRooms": "Apparts",
+                        "HomeInfoNoRooms": "Tu n'as pas d'appart",
+                        "HomeInfoGroups": "Groupes",
+                        "HomeInfoNoGroups": "Tu ne fais partie d''aucun groupe",
+                        "HomeInfoRatings": "Votes",
  
                         "HabboSearchPlaceholder": "Recherche de Habbos…",
  
@@ -246,7 +261,11 @@ function loadLang() {
                             "HomeInfoLastVisit": "Ultimo accesso:",
                             "HomeInfoFriends": "Amici",
                             "HomeInfoFriendSearch": "Cerca...",
-                            "HomeInfoBadges": "Distintivi",
+                            "HomeInfoRooms": "Stanze",
+                            "HomeInfoNoRooms": "Non hai nessuna Stanza",
+                            "HomeInfoGroups": "Gruppi",
+                            "HomeInfoNoGroups": "Non sei membro di nessun Gruppo",
+                            "HomeInfoRatings": "Voti",
      
                             "HabboSearchPlaceholder": "Cerca un Habbo!",
      
@@ -308,6 +327,11 @@ function loadLang() {
                         "HomeInfoFriends": " Letzter Zugang:",
                         "HomeInfoFriendSearch": "Suche...",
                         "HomeInfoBadges": "Abzeichen",
+                        "HomeInfoRooms": "Räume",
+                        "HomeInfoNoRooms": "Du hast keine Räume",
+                        "HomeInfoGroups": "Gruppen",
+                        "HomeInfoNoGroups": "Du bist in keiner Gruppe",
+                        "HomeInfoRatings": "Stimmen",
  
                         "HabboSearchPlaceholder": "Suche Habbo...",
  
@@ -370,6 +394,11 @@ function loadLang() {
                         "HomeInfoFriends": "Arkadaşlar",
                         "HomeInfoFriendSearch": "Arama...",
                         "HomeInfoBadges": "Plakalar",
+                        "HomeInfoRooms": "Rooms", /*CHANGE*/
+                        "HomeInfoNoRooms": "You do not have any rooms", /*CHANGE*/
+                        "HomeInfoGroups": "Groups", /*CHANGE*/
+                        "HomeInfoNoGroups": "You are not a member of any Groups", /*CHANGE*/
+                        "HomeInfoRatings": "Votes", /*CHANGE*/
 
                         "HabboSearchPlaceholder": "Arama Habbo...",
 
@@ -433,6 +462,11 @@ function loadLang() {
                         "HomeInfoFriends": "Friends",
                         "HomeInfoFriendSearch": "Search...",
                         "HomeInfoBadges": "Badges",
+                        "HomeInfoRooms": "Rooms",
+                        "HomeInfoNoRooms": "You do not have any rooms",
+                        "HomeInfoGroups": "Groups",
+                        "HomeInfoNoGroups": "You are not a member of any Groups",
+                        "HomeInfoRatings": "Votes",
 
                         "HabboSearchPlaceholder": "Search Habbo...",
 

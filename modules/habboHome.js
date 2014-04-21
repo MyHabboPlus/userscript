@@ -109,8 +109,11 @@ if (window.top==window){
                      $.ajax({url:site+"/myhabbo/badgelist/badgepaging", type:"POST", data:{_mypage_requested_account:habboHomeId, widgetId:habboHomeWidgetId[hotel]}, async:false})
                     .done(function(badges){
                         $("#myhp-homeinfo").append('<div id="myhp-homeinfo-container3"><div id="myhp-homeinfo-badges-title">'+text["HomeInfoBadges"]+'</div><div id="myhp-homeinfo-badges">'+badges+'</div></div>');
-                        habboHomeBadgesPage=1;
-                        habboHomeBadgesPages=badges.match(/\<input type=\"hidden\" id=\"badgeListTotalPages\" value=\"(.*)\"\/\>/)[1];
+                        if(badges.match(/\<input type=\"hidden\" id=\"badgeListTotalPages\" value=\"(.*)\"\/\>/)){
+                            habboHomeBadgesPages=badges.match(/\<input type=\"hidden\" id=\"badgeListTotalPages\" value=\"(.*)\"\/\>/)[1];
+                        }else{
+                            habboHomeBadgesPage=1;
+                        }
                         $("#myhp-homeinfo-badges").on("click", "#badge-list-paging a", function(){
                             if($(this).is("#badge-list-search-first")){
                                 habboHomeBadgesPage=1;
@@ -129,6 +132,40 @@ if (window.top==window){
                             });
                         });
                     });
+
+                    $.ajax({url:site+"/myhabbo/avatarlist/roomswidget", type:"POST", data:{anAccountId:habboHomeId, widgetId:[hotel]}, async:false}) //Rooms widget. Thanks to Saternoir for the URL.
+                        .done(function(rooms){
+                            if(rooms.match(/<tr>/g)!=undefined){
+                                rooms=rooms.match(/<table(.*)>([\s\S]*?)<\/table>/g)[0];
+                                roomsNum=rooms.match(/<tr>/g).length;
+                            }else{
+                                rooms=text["HomeInfoNoRooms"];
+                                roomsNum=0;
+                            }
+                            $("#myhp-homeinfo").append('<div id="myhp-homeinfo-container4"><div id="myhp-homeinfo-rooms-title">'+text["HomeInfoRooms"]+' ('+roomsNum+')</div><div id="myhp-homeinfo-rooms">'+rooms+'</div></div>');
+
+                    });
+
+                    $.ajax({url:site+"/myhabbo/groups/grouplist", type:"POST", data:{_mypage_requested_account:habboHomeId, widgetId:habboHomeWidgetId[hotel]}, async:false})
+                        .done(function(groups){
+                            if(groups.match(/<li (.*)>/g)!=undefined){
+                                groups=groups.match(/<ul class=\"groups-list\">([\s\S]*?)<\/ul>/g)[0].replace(/\<div class=\"groups-list-open\"\>(.*)\<\/div\>/g, "");
+                                groupsNum=groups.match(/<li (.*)>/g).length;
+                            }else{
+                                groups=text["HomeInfoNoGroups"];
+                                groupsNum=0;
+                            }
+                            $("#myhp-homeinfo").append('<div id="myhp-homeinfo-container5"><div id="myhp-homeinfo-groups-title">'+text["HomeInfoGroups"]+' ('+groupsNum+')</div><div id="myhp-homeinfo-groups">'+groups+'</div></div>');
+                    });
+
+                    $.ajax({url:site+"/myhabbo/avatarlist/ratingwidget", type:"POST", data:{_mypage_requested_account:habboHomeId, widgetId:habboHomeWidgetId[hotel]}, async:false}) //Rating widget. Thanks to Saternoir for the URL.
+                        .done(function(rating){
+                            rating=rating.match(/<div class=\"rating-average\">([\s\S]*?)\)([\s\S]*?)<\/div>/g)[0];
+                            rating=rating.replace(/<b>(.*)<\/b>/g, "")
+                            $("#myhp-homeinfo").append('<div id="myhp-homeinfo-container6"><div id="myhp-homeinfo-rating-title">'+text["HomeInfoRatings"]+'</div><div id="myhp-homeinfo-rating">'+rating+'</div></div>');
+
+                    });
+                    
                 })
                 
                  .fail(function(){

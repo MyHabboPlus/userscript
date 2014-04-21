@@ -25,9 +25,9 @@ body.newhabbo#viewmode.color_red, body.newhabbo#home.color_red, body.newhabbo#ne
 }
 
 body.newhabbo#viewmode.color_orange, body.newhabbo#home.color_orange, body.newhabbo#news.color_orange, body.newhabbo#cbs2credits.color_orange, body.newhabbo#loyalty_points.color_orange, body.newhabbo#credit_offers.color_orange, body.newhabbo#profile.color_orange, body.newhabbo#embedpage.color_orange {
-	background-color:#e18f53;
+	background-color:#de9054;
 	background-image:url('../../images/v3/bg_texture.out.png');
-	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffad72 0,#e18f53 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffad72 0,#e18f53 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffad72 0,#e18f53 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffad72 0,#e18f53 480px);
+	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffbe73 0,#de9054 480px);
 }
 
 body.newhabbo#viewmode.color_yellow, body.newhabbo#home.color_yellow, body.newhabbo#news.color_yellow, body.newhabbo#cbs2credits.color_yellow, body.newhabbo#loyalty_points.color_yellow, body.newhabbo#credit_offers.color_yellow, body.newhabbo#profile.color_yellow, body.newhabbo#embedpage.color_yellow {
@@ -120,7 +120,7 @@ body.newhabbo.color_red #navi li.selected strong, body.newhabbo.color_red #navi 
 }
 
 body.newhabbo.color_orange #navi li.selected strong, body.newhabbo.color_orange #navi li.selected a {
-	background-color:#ea9f54;
+	background-color:#ff985c;
 }
 
 body.newhabbo.color_yellow #navi li.selected strong, body.newhabbo.color_yellow #navi li.selected a {
@@ -364,7 +364,7 @@ body.newhabbo.color_red #navi2 {
 }
 
 body.newhabbo.color_orange #navi2 {
-	background-color:#ea9f54;
+	background-color:#ff985c;
 }
 
 body.newhabbo.color_yellow #navi2 {
@@ -431,7 +431,12 @@ body.newhabbo h2.title {
 	text-shadow:0px 1px 0px #000000;
 	font-size:13px;
 	line-height:normal;
-
+}
+body.newhabbo .cb.red h2.title {
+	background: #d40000; background: -moz-linear-gradient(top,  #d40000 0%, #cc0000 50%, #b30000 51%, #ab0000 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d40000), color-stop(50%,#cc0000), color-stop(51%,#b30000), color-stop(100%,#ab0000)); background: -webkit-linear-gradient(top,  #d40000 0%,#cc0000 50%,#b30000 51%,#ab0000 100%); background: -ms-linear-gradient(top,  #d40000 0%,#cc0000 50%,#b30000 51%,#ab0000 100%); background: linear-gradient(to bottom,  #d40000 0%,#cc0000 50%,#b30000 51%,#ab0000 100%);
+	box-shadow:inset 0px 1px 0px 0px #f00000;
+	border-bottom:1px solid #660000;
+	text-shadow:0px 1px 0px #660000;
 }
 
 body.newhabbo#news #column1 {
