@@ -1,60 +1,55 @@
 /* MyHabboPlus Habbo Alternative Theme */
-body.newhabbo#viewmode, body.newhabbo#home, body.newhabbo#news, body.newhabbo#cbs2credits, body.newhabbo#loyalty_points, body.newhabbo#credit_offers, body.newhabbo#profile, body.newhabbo#embedpage {
+body.newhabbo#viewmode, body.newhabbo#editmode, body.newhabbo#home, body.newhabbo#news, body.newhabbo#cbs2credits, body.newhabbo#loyalty_points, body.newhabbo#credit_offers, body.newhabbo#profile, body.newhabbo#embedpage {
 	background-attachment:fixed;
 	background-color:#007498;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#0297c8 0,#007498 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#0297c8 0,#007498 480px);
 	padding:0px !important;
 }
-body.newhabbo#viewmode.color_purple, body.newhabbo#home.color_purple, body.newhabbo#news.color_purple, body.newhabbo#cbs2credits.color_purple, body.newhabbo#loyalty_points.color_purple, body.newhabbo#credit_offers.color_purple, body.newhabbo#profile.color_purple, body.newhabbo#embedpage.color_purple {
+
+body.newhabbo#viewmode.color_purple, body.newhabbo#editmode.color_purple, body.newhabbo#home.color_purple, body.newhabbo#news.color_purple, body.newhabbo#cbs2credits.color_purple, body.newhabbo#loyalty_points.color_purple, body.newhabbo#credit_offers.color_purple, body.newhabbo#profile.color_purple, body.newhabbo#embedpage.color_purple {
 	background-color:#8a5a96;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#b677c7 0,#8a5a96 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#b677c7 0,#8a5a96 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#b677c7 0,#8a5a96 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#b677c7 0,#8a5a96 480px);
 }
 
-body.newhabbo#viewmode.color_pink, body.newhabbo#home.color_pink, body.newhabbo#news.color_pink, body.newhabbo#cbs2credits.color_pink, body.newhabbo#loyalty_points.color_pink, body.newhabbo#credit_offers.color_pink, body.newhabbo#profile.color_pink, body.newhabbo#embedpage.color_pink {
+body.newhabbo#viewmode.color_pink, body.newhabbo#editmode.color_pink, body.newhabbo#home.color_pink, body.newhabbo#news.color_pink, body.newhabbo#cbs2credits.color_pink, body.newhabbo#loyalty_points.color_pink, body.newhabbo#credit_offers.color_pink, body.newhabbo#profile.color_pink, body.newhabbo#embedpage.color_pink {
 	background-color:#c1748c;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#f291b0 0,#c1748c 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#f291b0 0,#c1748c 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#f291b0 0,#c1748c 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#f291b0 0,#c1748c 480px);
 }
 
-body.newhabbo#viewmode.color_red, body.newhabbo#home.color_red, body.newhabbo#news.color_red, body.newhabbo#cbs2credits.color_red, body.newhabbo#loyalty_points.color_red, body.newhabbo#credit_offers.color_red, body.newhabbo#profile.color_red, body.newhabbo#embedpage.color_red {
+body.newhabbo#viewmode.color_red, body.newhabbo#editmode.color_red, body.newhabbo#home.color_red, body.newhabbo#news.color_red, body.newhabbo#cbs2credits.color_red, body.newhabbo#loyalty_points.color_red, body.newhabbo#credit_offers.color_red, body.newhabbo#profile.color_red, body.newhabbo#embedpage.color_red {
 	background-color:#ad353b;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#e0454d 0,#ad353b 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#e0454d 0,#ad353b 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#e0454d 0,#ad353b 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#e0454d 0,#ad353b 480px);
 }
 
-body.newhabbo#viewmode.color_orange, body.newhabbo#home.color_orange, body.newhabbo#news.color_orange, body.newhabbo#cbs2credits.color_orange, body.newhabbo#loyalty_points.color_orange, body.newhabbo#credit_offers.color_orange, body.newhabbo#profile.color_orange, body.newhabbo#embedpage.color_orange {
+body.newhabbo#viewmode.color_orange, body.newhabbo#editmode.color_orange, body.newhabbo#home.color_orange, body.newhabbo#news.color_orange, body.newhabbo#cbs2credits.color_orange, body.newhabbo#loyalty_points.color_orange, body.newhabbo#credit_offers.color_orange, body.newhabbo#profile.color_orange, body.newhabbo#embedpage.color_orange {
 	background-color:#de9054;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffbe73 0,#de9054 480px);
 }
 
-body.newhabbo#viewmode.color_yellow, body.newhabbo#home.color_yellow, body.newhabbo#news.color_yellow, body.newhabbo#cbs2credits.color_yellow, body.newhabbo#loyalty_points.color_yellow, body.newhabbo#credit_offers.color_yellow, body.newhabbo#profile.color_yellow, body.newhabbo#embedpage.color_yellow {
+body.newhabbo#viewmode.color_yellow, body.newhabbo#editmode.color_yellow, body.newhabbo#home.color_yellow, body.newhabbo#news.color_yellow, body.newhabbo#cbs2credits.color_yellow, body.newhabbo#loyalty_points.color_yellow, body.newhabbo#credit_offers.color_yellow, body.newhabbo#profile.color_yellow, body.newhabbo#embedpage.color_yellow {
 	background-color:#d6be43;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffe76d 0,#d6be43 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffe76d 0,#d6be43 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffe76d 0,#d6be43 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffe76d 0,#d6be43 480px);
 }
 
-body.newhabbo#viewmode.color_green, body.newhabbo#home.color_green, body.newhabbo#news.color_green, body.newhabbo#cbs2credits.color_green, body.newhabbo#loyalty_points.color_green, body.newhabbo#credit_offers.color_green, body.newhabbo#profile.color_green, body.newhabbo#embedpage.color_green {
+body.newhabbo#viewmode.color_green, body.newhabbo#editmode.color_green, body.newhabbo#home.color_green, body.newhabbo#news.color_green, body.newhabbo#cbs2credits.color_green, body.newhabbo#loyalty_points.color_green, body.newhabbo#credit_offers.color_green, body.newhabbo#profile.color_green, body.newhabbo#embedpage.color_green {
 	background-color:#70b338;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#98d95f 0,#70b338 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#98d95f 0,#70b338 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#98d95f 0,#70b338 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#98d95f 0,#70b338 480px);
 }
 
-body.newhabbo#viewmode.color_black, body.newhabbo#home.color_black, body.newhabbo#news.color_black, body.newhabbo#cbs2credits.color_black, body.newhabbo#loyalty_points.color_black, body.newhabbo#credit_offers.color_black, body.newhabbo#profile.color_black, body.newhabbo#embedpage.color_black {
-	background-color:#343434;
-	background-image:url('../../images/v3/bg_texture_1.out.png');
-	background-image:url('../../images/v3/bg_texture_1.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,##4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,##4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,##4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),radial-gradient(circle farthest-side at 190px 190px,##4d4d4d 0,#343434 480px);
-}
-
-body.newhabbo#viewmode.color_black, body.newhabbo#home.color_black, body.newhabbo#news.color_black, body.newhabbo#cbs2credits.color_black, body.newhabbo#loyalty_points.color_black, body.newhabbo#credit_offers.color_black, body.newhabbo#profile.color_black, body.newhabbo#embedpage.color_black {
+body.newhabbo#viewmode.color_black, body.newhabbo#editmode.color_black, body.newhabbo#home.color_black, body.newhabbo#news.color_black, body.newhabbo#cbs2credits.color_black, body.newhabbo#loyalty_points.color_black, body.newhabbo#credit_offers.color_black, body.newhabbo#profile.color_black, body.newhabbo#embedpage.color_black {
 	background-color:#343434;
 	background-image:url('../../images/v3/bg_texture_1.out.png');
 	background-image:url('../../images/v3/bg_texture_1.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#4d4d4d 0,#343434 480px);background-image:url('../../images/v3/bg_texture_1.out.png'),radial-gradient(circle farthest-side at 190px 190px,#4d4d4d 0,#343434 480px);
 }
 
-body.newhabbo#viewmode.color_white, body.newhabbo#home.color_white, body.newhabbo#news.color_white, body.newhabbo#cbs2credits.color_white, body.newhabbo#loyalty_points.color_white, body.newhabbo#credit_offers.color_white, body.newhabbo#profile.color_white, body.newhabbo#embedpage.color_white {
+body.newhabbo#viewmode.color_white, body.newhabbo#editmode.color_white, body.newhabbo#home.color_white, body.newhabbo#news.color_white, body.newhabbo#cbs2credits.color_white, body.newhabbo#loyalty_points.color_white, body.newhabbo#credit_offers.color_white, body.newhabbo#profile.color_white, body.newhabbo#embedpage.color_white {
 	background-color:#d3d3d3;
 	background-image:url('../../images/v3/bg_texture.out.png');
 	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#f7f7f7 0,#d3d3d3 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#f7f7f7 0,#d3d3d3 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#f7f7f7 0,#d3d3d3 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#f7f7f7 0,#d3d3d3 480px);
@@ -384,6 +379,42 @@ body.newhabbo.color_white #navi2 {
 	color:rgba(0,0,0,0.85);
 }
 
+body.newhabbo a, body.newhabbo #article-wrapper h2 {
+	color:#007498;
+}
+
+body.newhabbo.color_purple a, body.newhabbo.color_purple #article-wrapper h2 {
+	color:#8a5a96;
+}
+
+body.newhabbo.color_pink a, body.newhabbo.color_pink #article-wrapper h2 {
+	color:#c1748c;
+}
+
+body.newhabbo.color_red a, body.newhabbo.color_red #article-wrapper h2 {
+	color:#ad353b;
+}
+
+body.newhabbo.color_orange a, body.newhabbo.color_orange #article-wrapper h2 {
+	color:#de9054;
+}
+
+body.newhabbo.color_yellow a, body.newhabbo.color_yellow #article-wrapper h2 {
+	color:#b7a548;
+}
+
+body.newhabbo.color_green a, body.newhabbo.color_green #article-wrapper h2 {
+	color:#67a234;
+}
+
+body.newhabbo.color_black a, body.newhabbo.color_black #article-wrapper h2 {
+	color:#345080;
+}
+
+body.newhabbo.color_white a, body.newhabbo.color_white #article-wrapper h2 {
+	color:#FC6204;
+}
+
 body.newhabbo #navi2-container {
 	background:none;
 	padding:0px;
@@ -493,9 +524,21 @@ body.newhabbo #article-archive a:hover {
 	text-decoration:underline;
 }
 
+body.newhabbo #article-wrapper .article-meta {
+	border-top:1px solid rgba(119, 119, 119, 0.18);
+}
+
 body.newhabbo #footer p {
 	color:#292929;
 	font-size:10px;
+}
+
+body.newhabbo.color_black #footer a {
+	color:#ECECEC;
+}
+
+body.newhabbo.color_black #footer p {
+	color:#ECECEC;
 }
 
 body.newhabbo #footer p.copyright {
@@ -520,4 +563,31 @@ body.newhabbo #habblet-container {
 
 body.newhabbo #twitterfeed-habblet-container {
 	float:left;
+}
+
+body.newhabbo ul.avatar-widget-list li  {
+	background:rgba(205,205,205,0.4);
+}
+
+body.newhabbo ul.avatar-widget-list li:hover  {
+	background:rgba(205,205,205,0.6);
+}
+
+body.newhabbo ul.groups-list li {
+	background:rgba(205,205,205,0.4);
+}
+
+body.newhabbo ul.groups-list li:hover {
+	background:rgba(205,205,205,0.6);
+}
+
+body.newhabbo #to-hotel #enter-hotel-open-medium-link {
+	font-size:13px;
+	background-color:white;
+	padding:6px 30px 6px 8px;
+	border-radius:4px;
+}
+
+body.newhabbo #logout-content a {
+	color:white;
 }
