@@ -99,7 +99,7 @@ function loadLang() {
                         "Week": "Semana",
                         "Weeks": "Semanas",
                         "Never": "Nunca",
-                        "ChangeColor":"Change color", /*CHANGE*/
+                        "ChangeColor":"Alterar cor",
 
                         "LightboxTitle": "Atenção!",
                         "Preferences": "Preferências",
@@ -165,7 +165,7 @@ function loadLang() {
                         "Week": "Semaine",
                         "Weeks": "Semaine",
                         "Never": "Jamais",
-                        "ChangeColor":"Change color", /*CHANGE*/
+                        "ChangeColor":"Changer de couleur",
  
                         "LightboxTitle": "Attention!",
                         "Preferences": "Préférence",
@@ -231,7 +231,7 @@ function loadLang() {
                             "Week": "Settimana",
                             "Weeks": "Settimane",
                             "Never": "Mai",
-                            "ChangeColor":"Change color", /*CHANGE*/
+                            "ChangeColor":"Cambia colore",
      
                             "LightboxTitle": "Attenzione!",
                             "Preferences": "Opzioni",
@@ -296,7 +296,7 @@ function loadLang() {
                         "Week": "Woche",
                         "Weeks": "Woche",
                         "Never": "Nie",
-                        "ChangeColor":"Change color", /*CHANGE*/
+                        "ChangeColor":"Farbe ändern",
  
                         "LightboxTitle": "Aufmerksamkeit!",
                         "Preferences": "Einstellungen",
@@ -363,7 +363,7 @@ function loadLang() {
                         "Week": "Hafta",
                         "Weeks": "Hafta",
                         "Never": "Asla",
-                        "ChangeColor":"Change color", /*CHANGE*/
+                        "ChangeColor":"Rengini değiştirme",
 
                         "LightboxTitle": "Dikkat!",
                         "Preferences": "Tercihleri",
@@ -394,11 +394,11 @@ function loadLang() {
                         "HomeInfoFriends": "Arkadaşlar",
                         "HomeInfoFriendSearch": "Arama...",
                         "HomeInfoBadges": "Plakalar",
-                        "HomeInfoRooms": "Rooms", /*CHANGE*/
-                        "HomeInfoNoRooms": "You do not have any rooms", /*CHANGE*/
-                        "HomeInfoGroups": "Groups", /*CHANGE*/
-                        "HomeInfoNoGroups": "You are not a member of any Groups", /*CHANGE*/
-                        "HomeInfoRatings": "Votes", /*CHANGE*/
+                        "HomeInfoRooms": "Oda",
+                        "HomeInfoNoRooms": "Siz herhangi bir oda yok",
+                        "HomeInfoGroups": "Gruplar",
+                        "HomeInfoNoGroups": "Siz herhangi bir grup üyesi değilsiniz",
+                        "HomeInfoRatings": "Oy",
 
                         "HabboSearchPlaceholder": "Arama Habbo...",
 
