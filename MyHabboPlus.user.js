@@ -17,9 +17,7 @@
 // @include     http://www.habbo.com.br/*
 // @include     https://www.habbo.com.br/*
 // @include     http://www.habbo.com.tr/*
-// @include     http://habbo.com.tr/*
 // @include     https://www.habbo.com.tr/*
-// @include     https://habbo.com.tr/*
 // @include     http://www.habbo.it/*
 // @include     https://www.habbo.it/*
 // @include     http://www.habbo.fr/*
