@@ -48,6 +48,11 @@ if(GM_getValue("prefNewHabbo")){
 }else{
 	var prefNewHabbo="1"; //Default
 }
+	if(GM_getValue("prefNewHabboColor")){
+		var prefNewHabboColor=GM_getValue("prefNewHabboColor"); //User
+	}else{
+		var prefNewHabboColor=""; //Default
+	}
 
 if(GM_getValue("prefHomeInfo")){
 	var prefHomeInfo=GM_getValue("prefHomeInfo"); //User

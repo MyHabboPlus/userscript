@@ -19,7 +19,7 @@ if (window.top==window){
                         document.title="["+text["NewArticlesTitle"]+"] "+document.title;
                         $("body").prepend('<div id="myhp-newsdetector-alarm"><iframe width="200" height="65" src="//www.youtube-nocookie.com/embed/'+prefNewArticlesVideo+'?autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
                         $("#myhp-newsdetector-button").removeClass("myhp-newsdetector-searching").addClass("myhp-newsdetector-detected").html(text["NewArticlesDetected"]);
-                        $("#myhp-newsdetector-button").wrap('<a href="'+newLast+'" class="nodecoration">');
+                        $("#myhp-newsdetector-button").wrap('<a href="articles/'+newLast+'" class="nodecoration">');
                         clearInterval(newSearching);
                     }
                 });

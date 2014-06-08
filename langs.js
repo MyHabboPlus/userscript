@@ -33,6 +33,7 @@ function loadLang() {
                         "Week": "Semana",
                         "Weeks": "Semanas",
                         "Never": "Nunca",
+                        "ChangeColor":"Cambiar de color",
 
                         "LightboxTitle": "¡Atención!",
                         "Preferences": "Preferencias",
@@ -63,6 +64,11 @@ function loadLang() {
                         "HomeInfoFriends": "Amigos",
                         "HomeInfoFriendSearch": "Buscar...",
                         "HomeInfoBadges": "Placas",
+                        "HomeInfoRooms": "Salas",
+                        "HomeInfoNoRooms": "No tienes Salas",
+                        "HomeInfoGroups": "Grupos",
+                        "HomeInfoNoGroups": "No eres miembro de ningún Grupo",
+                        "HomeInfoRatings": "Votos",
 
                         "HabboSearchPlaceholder": "Buscar Habbo...",
 
@@ -80,67 +86,73 @@ function loadLang() {
                         "UpdaterErrorText": "No ha sido posible conectar con el canal de actualización."
                 };
         }else if(myhpLang=="pt") {
-			 	// Portuguese by ,desativaado.
-		                text= {
-		                        "Close": "Fechar",
-		                "Error": "Erro",
-		                "NoConnect": "Erro de conexão",
-		                "Loading": "Carregando...",
-		                "Hour": "Hora",
-		                "Hours": "Horas",
-		                "Day": "Dia",
-		                "Days": "Dias",
-		                "Week": "Semana",
-		                "Weeks": "Semanas",
-		                "Never": "Nunca",
+                // Portuguese by ,desativaado.
+                        text= {
+                                "Close": "Fechar",
+                        "Error": "Erro",
+                        "NoConnect": "Erro de conexão",
+                        "Loading": "Carregando...",
+                        "Hour": "Hora",
+                        "Hours": "Horas",
+                        "Day": "Dia",
+                        "Days": "Dias",
+                        "Week": "Semana",
+                        "Weeks": "Semanas",
+                        "Never": "Nunca",
+                        "ChangeColor":"Alterar cor",
 
-		                "LightboxTitle": "Atenção!",
-		                "Preferences": "Preferências",
-		                "PreferencesGeneral": "Geral",
-		                "PreferencesVersion": "Você está executando a versão",
-		                "PreferencesUpdate": "Procurar por atualizações",
-		                "PreferencesUpdateFreq": "Atualizações frequentes",
-		                "PreferencesUpdateChannel": "Atualização de canais",
-		                "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
-		                "PreferencesUpdateChannelBeta": "Beta",
-		                "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
-		                "Language": "Idioma",
-		                "LanguageAuto": "Detecção automática",
-		                "PreferencesModules": "Módulos",
-		                "PreferencesTheme": "Tema alternativo",
-		                "PreferencesHomeInfo": "Informação do Habbo",
-		                "PreferencesHabboSearch": "Pesquise por usuário Habbo",
-		                "PreferencesNewArticles": "Alerta para novos artigos",
-		                "PreferencesTweet": "Mostrar tweets de fã sites",
+                        "LightboxTitle": "Atenção!",
+                        "Preferences": "Preferências",
+                        "PreferencesGeneral": "Geral",
+                        "PreferencesVersion": "Você está executando a versão",
+                        "PreferencesUpdate": "Procurar por atualizações",
+                        "PreferencesUpdateFreq": "Atualizações frequentes",
+                        "PreferencesUpdateChannel": "Atualização de canais",
+                        "PreferencesUpdateChannelRelease": "Versões finais (recomendado)",
+                        "PreferencesUpdateChannelBeta": "Beta",
+                        "PreferencesUpdateChannelCustom": "Personalizado (para especialistas)",
+                        "Language": "Idioma",
+                        "LanguageAuto": "Detecção automática",
+                        "PreferencesModules": "Módulos",
+                        "PreferencesTheme": "Tema alternativo",
+                        "PreferencesHomeInfo": "Informação do Habbo",
+                        "PreferencesHabboSearch": "Pesquise por usuário Habbo",
+                        "PreferencesNewArticles": "Alerta para novos artigos",
+                        "PreferencesTweet": "Mostrar tweets de fã sites",
 
-		                "HomeInfoDetails": "Detalhes do usuário",
-		                "HomeInfoNoExist": "Este Habbo não existe.",
-		                "HomeInfoAddFriend": "Adicionar como amigo",
-		                "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
-		                "HomeInfoDate": "Sou usuário Habbo desde:",
-		                "HomeInfoStatus": "Status:",
-		                "HomeInfoLastVisit": "Último login:",
-		                "HomeInfoFriends": "Friends",
-		                "HomeInfoFriendSearch": "Pesquisar...",
-		                "HomeInfoBadges": "Emblemas",
+                        "HomeInfoDetails": "Detalhes do usuário",
+                        "HomeInfoNoExist": "Este Habbo não existe.",
+                        "HomeInfoAddFriend": "Adicionar como amigo",
+                        "HomeInfoAddError": "Houve um erro ao solicitar a amizade.",
+                        "HomeInfoDate": "Sou usuário Habbo desde:",
+                        "HomeInfoStatus": "Status:",
+                        "HomeInfoLastVisit": "Último login:",
+                        "HomeInfoFriends": "Friends",
+                        "HomeInfoFriendSearch": "Pesquisar...",
+                        "HomeInfoBadges": "Emblemas",
+                        "HomeInfoRooms": "Quartos",
+                        "HomeInfoNoRooms": "Você ainda não tem nenhum Quarto.",
+                        "HomeInfoGroups": "Grupos",
+                        "HomeInfoNoGroups": "Você ainda não é membro de um Grupo.",
+                        "HomeInfoRatings": "Votos",
 
-		                "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
+                        "HabboSearchPlaceholder": "Pesquisar usuário Habbo...",
 
-		                "NewArticles": "Alerta para novos artigos",
-		                "NewArticlesSearching": "Pesquisando novos artigos...",
-		                "NewArticlesTitle": "Nova notícia!",
-		                "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
+                        "NewArticles": "Alerta para novos artigos",
+                        "NewArticlesSearching": "Pesquisando novos artigos...",
+                        "NewArticlesTitle": "Nova notícia!",
+                        "NewArticlesDetected": "Nova notícia encontrada. Clique aqui.",
 
-		                "UpdaterNewTitle": "Nova atualização",
-		                "UpdaterNewText": "Nova atualização encontrada:",
-		                "UpdaterUpdate": "Atualize agora",
-		                "UpdaterNoTitle": "Não há novas atualização",
-		                "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
-		                "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
-		                "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
-		              }; 
+                        "UpdaterNewTitle": "Nova atualização",
+                        "UpdaterNewText": "Nova atualização encontrada:",
+                        "UpdaterUpdate": "Atualize agora",
+                        "UpdaterNoTitle": "Não há novas atualização",
+                        "UpdaterNoText": "Nenhuma atualização encontrada, você está usando a versão mais recente do MyHabboPlus.",
+                        "UpdaterErrorTitle": "Houve um erro ao tentar buscar novas atualizações",
+                        "UpdaterErrorText": "Não foi possível conectar com o canal de atualizações."
+                      }; 
         }else if(myhpLang=="fr") {
-			 // French by Matou19
+             // French by Matou19
                         text= {
                         "Close": "Fermer",
                         "Error": "Erreur",
@@ -153,6 +165,7 @@ function loadLang() {
                         "Week": "Semaine",
                         "Weeks": "Semaine",
                         "Never": "Jamais",
+                        "ChangeColor":"Changer de couleur",
  
                         "LightboxTitle": "Attention!",
                         "Preferences": "Préférence",
@@ -183,6 +196,11 @@ function loadLang() {
                         "HomeInfoFriends": "Amis",
                         "HomeInfoFriendSearch": "Recherche...",
                         "HomeInfoBadges": "Badges",
+                        "HomeInfoRooms": "Apparts",
+                        "HomeInfoNoRooms": "Tu n'as pas d'appart",
+                        "HomeInfoGroups": "Groupes",
+                        "HomeInfoNoGroups": "Tu ne fais partie d''aucun groupe",
+                        "HomeInfoRatings": "Votes",
  
                         "HabboSearchPlaceholder": "Recherche de Habbos…",
  
@@ -200,8 +218,8 @@ function loadLang() {
                         "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
               };
         }else if(myhpLang=="it") {
-			 // Italiano by Gabbo...
-     				text= {
+             // Italiano by Gabbo...
+                    text= {
                             "Close": "Chiudi",
                             "Error": "Errore",
                             "NoConnect": "Errore di connessione.",
@@ -213,6 +231,7 @@ function loadLang() {
                             "Week": "Settimana",
                             "Weeks": "Settimane",
                             "Never": "Mai",
+                            "ChangeColor":"Cambia colore",
      
                             "LightboxTitle": "Attenzione!",
                             "Preferences": "Opzioni",
@@ -242,7 +261,11 @@ function loadLang() {
                             "HomeInfoLastVisit": "Ultimo accesso:",
                             "HomeInfoFriends": "Amici",
                             "HomeInfoFriendSearch": "Cerca...",
-                            "HomeInfoBadges": "Distintivi",
+                            "HomeInfoRooms": "Stanze",
+                            "HomeInfoNoRooms": "Non hai nessuna Stanza",
+                            "HomeInfoGroups": "Gruppi",
+                            "HomeInfoNoGroups": "Non sei membro di nessun Gruppo",
+                            "HomeInfoRatings": "Voti",
      
                             "HabboSearchPlaceholder": "Cerca un Habbo!",
      
@@ -260,8 +283,8 @@ function loadLang() {
                             "UpdaterErrorText": "Non è stata possibile la connessione."
                          };
          }else if(myhpLang=="de") {
-         	// Deutsch by Skyki
-        	text= {
+            // Deutsch by Skyki
+            text= {
                         "Close": "Schließen",
                         "Error": "Fehler",
                         "NoConnect": "Verbindungsfehler.",
@@ -273,6 +296,7 @@ function loadLang() {
                         "Week": "Woche",
                         "Weeks": "Woche",
                         "Never": "Nie",
+                        "ChangeColor":"Farbe ändern",
  
                         "LightboxTitle": "Aufmerksamkeit!",
                         "Preferences": "Einstellungen",
@@ -303,6 +327,11 @@ function loadLang() {
                         "HomeInfoFriends": " Letzter Zugang:",
                         "HomeInfoFriendSearch": "Suche...",
                         "HomeInfoBadges": "Abzeichen",
+                        "HomeInfoRooms": "Räume",
+                        "HomeInfoNoRooms": "Du hast keine Räume",
+                        "HomeInfoGroups": "Gruppen",
+                        "HomeInfoNoGroups": "Du bist in keiner Gruppe",
+                        "HomeInfoRatings": "Stimmen",
  
                         "HabboSearchPlaceholder": "Suche Habbo...",
  
@@ -334,6 +363,7 @@ function loadLang() {
                         "Week": "Hafta",
                         "Weeks": "Hafta",
                         "Never": "Asla",
+                        "ChangeColor":"Rengini değiştirme",
 
                         "LightboxTitle": "Dikkat!",
                         "Preferences": "Tercihleri",
@@ -364,6 +394,11 @@ function loadLang() {
                         "HomeInfoFriends": "Arkadaşlar",
                         "HomeInfoFriendSearch": "Arama...",
                         "HomeInfoBadges": "Plakalar",
+                        "HomeInfoRooms": "Oda",
+                        "HomeInfoNoRooms": "Siz herhangi bir oda yok",
+                        "HomeInfoGroups": "Gruplar",
+                        "HomeInfoNoGroups": "Siz herhangi bir grup üyesi değilsiniz",
+                        "HomeInfoRatings": "Oy",
 
                         "HabboSearchPlaceholder": "Arama Habbo...",
 
@@ -396,6 +431,7 @@ function loadLang() {
                         "Week": "Week",
                         "Weeks": "Weeks",
                         "Never": "Never",
+                        "ChangeColor":"Change color",
 
                         "LightboxTitle": "Attention!",
                         "Preferences": "Preferences",
@@ -426,6 +462,11 @@ function loadLang() {
                         "HomeInfoFriends": "Friends",
                         "HomeInfoFriendSearch": "Search...",
                         "HomeInfoBadges": "Badges",
+                        "HomeInfoRooms": "Rooms",
+                        "HomeInfoNoRooms": "You do not have any rooms",
+                        "HomeInfoGroups": "Groups",
+                        "HomeInfoNoGroups": "You are not a member of any Groups",
+                        "HomeInfoRatings": "Votes",
 
                         "HabboSearchPlaceholder": "Search Habbo...",
 
