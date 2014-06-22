@@ -112,8 +112,9 @@ if (window.top==window){
                         if(badges.match(/\<input type=\"hidden\" id=\"badgeListTotalPages\" value=\"(.*)\"\/\>/)){
                             habboHomeBadgesPages=badges.match(/\<input type=\"hidden\" id=\"badgeListTotalPages\" value=\"(.*)\"\/\>/)[1];
                         }else{
-                            habboHomeBadgesPage=1;
+                            habboHomeBadgesPages=1;
                         }
+                        habboHomeBadgesPage=1;
                         $("#myhp-homeinfo-badges").on("click", "#badge-list-paging a", function(){
                             if($(this).is("#badge-list-search-first")){
                                 habboHomeBadgesPage=1;
