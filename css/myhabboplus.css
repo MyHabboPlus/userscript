@@ -142,7 +142,7 @@ a.nodecoration {
 	overflow-y:auto;
 }
 .lightbox-container {
-	width:760px;
+	width:680px;
 	height:auto;
 	margin:75px auto;
 	position:relative;
@@ -152,6 +152,8 @@ a.nodecoration {
 	overflow:hidden;
 	text-align:left;
 	cursor:auto;
+}
+.lightbox-container.lightbox-animation {
 	animation:lightbox-bounce 800ms;
 }
 .lightbox-container.lightbox-alert {
