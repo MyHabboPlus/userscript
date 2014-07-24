@@ -23,10 +23,12 @@ if (window.top==window){
         $("body").on("click", ".lightbox-bg", function(){
             $(this).fadeOut(600);
             $("body").css({"overflow": "auto"});
+            $(this).children().removeClass("lightbox-animation");
         });
         $("body").on("click", ".lightbox-close", function(){
             $(this).parents(".lightbox-bg").fadeOut(600);
             $("body").css({"overflow": "auto"});
+            $(this).parent().parent().removeClass("lightbox-animation");
         });
         $("body").on("click", ".lightbox-container", function(event){
             event.stopPropagation();
@@ -38,10 +40,10 @@ if (window.top==window){
     function myhpLightbox(lightboxType, lightboxTitle, lightboxContent) {
         var lightbox='<div class="lightbox-bg" style="z-index:'+myhpLightboxLvl+';">';
         lightboxContent=lightboxContent.replace(/\\t/g, "<br>").replace(/\\n/g, "<br>");
-        if(lightboxType=="alert"){lightbox+='<div class="lightbox-container lightbox-alert">';}else{lightbox+='<div class="lightbox-container">';}
+        if(lightboxType=="alert"){lightbox+='<div class="lightbox-container lightbox-alert lightbox-animation">';}else{lightbox+='<div class="lightbox-container lightbox-animation">';}
         lightbox+='<div class="lightbox-header">'+lightboxTitle+'<div class="myhp-sprites lightbox-close" title="'+text["Close"]+'"></div></div><div class="lightbox-content">'+lightboxContent+'</div></div></div>';
         $("body").prepend(lightbox);
-        $(".lightbox-bg").first().fadeIn(600);
+        $(".lightbox-bg").first().show();
         $("body").css({"overflow": "hidden"});
         myhpLightboxLvl=myhpLightboxLvl+1;
     }

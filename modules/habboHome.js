@@ -64,7 +64,7 @@ if (window.top==window){
                         $.ajax({url:site+"/myhabbo/friends/add", type:"POST", headers:{"X-Prototype-Version":"1.7", "X-App-Key":habboHomeAddToken}, data:{accountId:habboHomeId}, dataType:"html", async:false})
                         .done(function(addfriend){
                             addfriend=addfriend.split('"')[3].replace(/\\t/g, "").replace(/\\n/g, "");
-                            myhpLightbox("alert", undefined, addfriend);
+                            myhpLightbox("alert", text["Attention"], addfriend);
                         })
                          .fail(function(){
                             myhpLightbox("alert", text["Error"], text["HomeInfoAddError"]);
