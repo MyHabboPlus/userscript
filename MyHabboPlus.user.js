@@ -51,7 +51,7 @@
 // @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/dev/css/newhabbo.css
 // @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/dev/css/myhabboplus.css
 // @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/dev/img/sprites.png
-// @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+// @require     http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
 // @require     https://raw.github.com/MyHabboPlus/userscript/dev/config.js
 // @require     https://raw.github.com/MyHabboPlus/userscript/dev/langs.js
 // @require     https://raw.github.com/MyHabboPlus/userscript/dev/modules/system.js
