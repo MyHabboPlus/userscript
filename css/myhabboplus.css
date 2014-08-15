@@ -23,7 +23,7 @@ a.nodecoration {
 #myhp-button-config {
 	background-color:#2e85b8;
 	position:absolute;
-	width:141px;
+	width:137px;
 	left:793px;
 	top:57px;
 	padding:5px 0px;
@@ -319,9 +319,10 @@ div#member-list-paging, div#avatar-list-paging, div#badge-list-paging {
 }
 
 #myhp-homeinfo-friends div.avatar-widget-list-container {
-	height:195px;
+	height:163px;
 	overflow:auto;
 }
+
 #myhp-homeinfo-friends ul.avatar-widget-list li {
 	background:#e3f2da;
 	width:123px;
@@ -334,6 +335,7 @@ div#member-list-paging, div#avatar-list-paging, div#badge-list-paging {
 	border:0px;
 	border-radius:3px;
 }
+
 #myhp-homeinfo-friends ul.avatar-widget-list li:hover {
 	background:#edf7e6;
 }
@@ -358,6 +360,53 @@ ul.avatar-widget-list li h4, ul.avatar-widget-list li p {
 
 p.avatar-list-birthday {
 	font-size:italic;
+}
+
+#common-friends {
+	background:#e3f2da;
+	padding:5px 0px;
+	margin-top:6px;
+	border-radius:4px;
+	color:#365F1C;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center;
+	cursor:pointer;
+}
+
+#common-friends:hover {
+	background:#edf7e6;
+}
+
+#myhp-homeinfo-commonfriends {
+	max-height:300px;
+	overflow:auto;
+}
+
+.myhp-homeinfo-commonfriend {
+	background:#f2f2f2;
+	float:left;
+	width:calc(33% - 21px);
+	margin:3px;
+	padding:4px 10px 4px 5px;
+	border:1px solid #dfdfdf;
+	border-radius:5px;
+	box-shadow:inset 0px 1px 0px #f9f9f9;
+}
+
+.myhp-homeinfo-commonfriend .habbo {
+	background-position:-17px -22px;
+	float:left;
+	width:31px;
+	height:34px;
+	border-radius:4px;
+}
+
+.myhp-homeinfo-commonfriend .user {
+	float:left;
+	font-weight:bold;
+	margin:5px 8px;
 }
 
 #myhp-homeinfo-container3 {
@@ -737,14 +786,19 @@ p.avatar-list-birthday {
 }
 
 .select-color {
-	width:14px;
-	height:14px;
+	width:12px;
+	height:12px;
 	float:left;
 	margin-right:6px;
 	border-radius:50%;
+	border:1px solid rgba(255, 255, 255, 0.40);
 	box-shadow:inset 0px 6px 1px 0px rgba(255,255,255,0.4);
 	cursor:pointer;
 	transition:opacity 1.5s;
+}
+
+body.newhabbo.color_white .select-color {
+	border:1px solid rgba(0, 0, 0, 0.15);
 }
 
 .select-color.select-invisible {
@@ -775,7 +829,7 @@ p.avatar-list-birthday {
 }
 
 .select-color#color_orange {
-	background:#e18f53;
+	background:#ff9138;
 }
 
 .select-color#color_yellow {

@@ -18,12 +18,11 @@ function loadLang() {
                 myhpLang="tr"; // Turkish
             }else if(prefLang=="fi"){
                 myhpLang="fi"; // Finnish
-
             }else{
                 myhpLang=navigator.language.match(/[a-z]+/); // Auto detection.
             }
             if(myhpLang=="es") {
-                
+
                 text= {
                     "Close": "Cerrar",
                     "Error": "Error",
@@ -67,6 +66,10 @@ function loadLang() {
                     "HomeInfoLastVisit": "Último acceso:",
                     "HomeInfoFriends": "Amigos",
                     "HomeInfoFriendSearch": "Buscar...",
+                    "HomeInfoFriendsCommon": "Amigos en común",
+                    "HomeInfoFriendsCommonZero": "No tienes ningún amigo en común.",
+                    "HomeInfoFriendsCommonYou": "Solo puedes comparar tus amigos con otros habbos.",
+                    "HomeInfoFriendsCommonLogin": "Necesitas iniciar sesión para comparar tus amigos.",
                     "HomeInfoBadges": "Placas",
                     "HomeInfoRooms": "Salas",
                     "HomeInfoNoRooms": "No tienes Salas",
@@ -134,6 +137,10 @@ function loadLang() {
                         "HomeInfoLastVisit": "Último login:",
                         "HomeInfoFriends": "Friends",
                         "HomeInfoFriendSearch": "Pesquisar...",
+                        "HomeInfoFriendsCommon": "Friends in common",//change
+                        "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
+                        "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
+                        "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
                         "HomeInfoBadges": "Emblemas",
                         "HomeInfoRooms": "Quartos",
                         "HomeInfoNoRooms": "Você ainda não tem nenhum Quarto.",
@@ -172,7 +179,7 @@ function loadLang() {
                 "Weeks": "Semaine",
                 "Never": "Jamais",
                 "ChangeColor":"Changer de couleur",
-                
+
                 "LightboxTitle": "Attention!",
                 "Preferences": "Préférence",
                 "PreferencesGeneral": "Général",
@@ -191,7 +198,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Rechercher un habbo",
                 "PreferencesNewArticles": "Alertes de nouveaux articles",
                 "PreferencesTweet": "Voir les tweets des fansites",
-                
+
                 "HomeInfoDetails": "Informations sur l'utilisateur",
                 "HomeInfoNoExist": "Ce Habbo n'existe pas.",
                 "HomeInfoAddFriend": "Ajouter en ami",
@@ -201,20 +208,24 @@ function loadLang() {
                 "HomeInfoLastVisit": "Dernière connexion:",
                 "HomeInfoFriends": "Amis",
                 "HomeInfoFriendSearch": "Recherche...",
+                "HomeInfoFriendsCommon": "Friends in common",//change
+                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
+                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
+                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
                 "HomeInfoBadges": "Badges",
                 "HomeInfoRooms": "Apparts",
                 "HomeInfoNoRooms": "Tu n'as pas d'appart",
                 "HomeInfoGroups": "Groupes",
                 "HomeInfoNoGroups": "Tu ne fais partie d''aucun groupe",
                 "HomeInfoRatings": "Votes",
-                
+
                 "HabboSearchPlaceholder": "Recherche de Habbos…",
-                
+
                 "NewArticles": "Alertes de nouveaux articles",
                 "NewArticlesSearching": "Recherche d'articles en cours...",
                 "NewArticlesTitle": "Nouvel article!",
                 "NewArticlesDetected": "Nouvel article trouvé. Cliquez ici.",
-                
+
                 "UpdaterNewTitle": "Nouvelle mise à jour",
                 "UpdaterNewText": "Nouvelle mise à jour trouvée:",
                 "UpdaterUpdate": "Mettre à jour maintenant",
@@ -224,7 +235,7 @@ function loadLang() {
                 "UpdaterErrorText": "Aucune connexion possible au serveur de mise à jour"
             };
         }else if(myhpLang=="it") {
-             // Italiano by Gabbo...
+             // Italian by Gabbo...
              text= {
                 "Close": "Chiudi",
                 "Error": "Errore",
@@ -239,7 +250,7 @@ function loadLang() {
                 "Weeks": "Settimane",
                 "Never": "Mai",
                 "ChangeColor":"Cambia colore",
-                
+
                 "LightboxTitle": "Attenzione!",
                 "Preferences": "Opzioni",
                 "PreferencesGeneral": "Generale",
@@ -258,7 +269,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Habbo Search",
                 "PreferencesNewArticles": "Alert per Nuovi articoli",
                 "PreferencesTweet": "Mostra i Tweet dei Fansites",
-                
+
                 "HomeInfoDetails": "Informazioni Habbo",
                 "HomeInfoNoExist": "Questo Habbo non esiste",
                 "HomeInfoAddFriend": "Aggiungi come amico",
@@ -268,19 +279,23 @@ function loadLang() {
                 "HomeInfoLastVisit": "Ultimo accesso:",
                 "HomeInfoFriends": "Amici",
                 "HomeInfoFriendSearch": "Cerca...",
+                "HomeInfoFriendsCommon": "Friends in common",//change
+                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
+                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
+                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
                 "HomeInfoRooms": "Stanze",
                 "HomeInfoNoRooms": "Non hai nessuna Stanza",
                 "HomeInfoGroups": "Gruppi",
                 "HomeInfoNoGroups": "Non sei membro di nessun Gruppo",
                 "HomeInfoRatings": "Voti",
-                
+
                 "HabboSearchPlaceholder": "Cerca un Habbo!",
-                
+
                 "NewArticles": "Alert per Nuovi articoli",
                 "NewArticlesSearching": "Sto cercando nuovi articoli...",
                 "NewArticlesTitle": "Nuovo Articolo!",
                 "NewArticlesDetected": "Nuovo articolo trovato! Clicca qui",
-                
+
                 "UpdaterNewTitle": "Nuovo update",
                 "UpdaterNewText": "Nuovo update trovato:",
                 "UpdaterUpdate": "Aggiorna ora",
@@ -305,7 +320,7 @@ function loadLang() {
                 "Weeks": "Woche",
                 "Never": "Nie",
                 "ChangeColor":"Farbe ändern",
-                
+
                 "LightboxTitle": "Aufmerksamkeit!",
                 "Preferences": "Einstellungen",
                 "PreferencesGeneral": "Allgemein",
@@ -324,7 +339,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Suche Habbos",
                 "PreferencesNewArticles": "Benachrichtigung für neue Nachrichten",
                 "PreferencesTweet": "Tweets anzeigen Fan web",
-                
+
                 "HomeInfoDetails": "Benutzerdetails",
                 "HomeInfoNoExist": "Dieser Habbo nicht.",
                 "HomeInfoAddFriend": "Als Freund hinzufügen",
@@ -334,20 +349,24 @@ function loadLang() {
                 "HomeInfoLastVisit": "Último acceso:",
                 "HomeInfoFriends": " Letzter Zugang:",
                 "HomeInfoFriendSearch": "Suche...",
+                "HomeInfoFriendsCommon": "Friends in common",//change
+                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
+                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
+                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
                 "HomeInfoBadges": "Abzeichen",
                 "HomeInfoRooms": "Räume",
                 "HomeInfoNoRooms": "Du hast keine Räume",
                 "HomeInfoGroups": "Gruppen",
                 "HomeInfoNoGroups": "Du bist in keiner Gruppe",
                 "HomeInfoRatings": "Stimmen",
-                
+
                 "HabboSearchPlaceholder": "Suche Habbo...",
-                
+
                 "NewArticles": "Benachrichtigung für neue Nachrichten ",
                 "NewArticlesSearching": "Suchen Sie nach neuen Nachrichten...",
                 "NewArticlesTitle": "Neue Nachrichten!",
                 "NewArticlesDetected": "Neue Nachrichten gefunden. Klicken Sie hier.",
-                
+
                 "UpdaterNewTitle": "Neues Update",
                 "UpdaterNewText": "Neues Update gefunden:",
                 "UpdaterUpdate": "Jetzt aktualisieren",
@@ -357,7 +376,7 @@ function loadLang() {
                 "UpdaterErrorText": "Es ist nicht möglich, auf den Update-Kanal zu verbinden."
             };
         }else if(myhpLang=="tr") {
-             // Türk by moltax-B4N
+             // Turkish by moltax-B4N
 
              text= {
                 "Close": "Yakın",
@@ -402,6 +421,10 @@ function loadLang() {
                 "HomeInfoLastVisit": "Son erişim:",
                 "HomeInfoFriends": "Arkadaşlar",
                 "HomeInfoFriendSearch": "Arama...",
+                "HomeInfoFriendsCommon": "Friends in common",//change
+                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
+                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
+                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
                 "HomeInfoBadges": "Plakalar",
                 "HomeInfoRooms": "Oda",
                 "HomeInfoNoRooms": "Siz herhangi bir oda yok",
@@ -544,6 +567,10 @@ function loadLang() {
                     "HomeInfoLastVisit": "Last log in:",
                     "HomeInfoFriends": "Friends",
                     "HomeInfoFriendSearch": "Search...",
+                    "HomeInfoFriendsCommon": "Friends in common",
+                    "HomeInfoFriendsCommonZero": "You don't have any friends in common.",
+                    "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",
+                    "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",
                     "HomeInfoBadges": "Badges",
                     "HomeInfoRooms": "Rooms",
                     "HomeInfoNoRooms": "You do not have any rooms",
