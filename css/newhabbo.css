@@ -137,6 +137,10 @@ body.newhabbo #navi li:hover + li a, body.newhabbo #navi li.selected + li a {
 	box-shadow:none;
 }
 
+body.newhabbo #navi li.selected:first-child {
+	margin-left:-1px;
+}
+
 body.newhabbo #navi li:first-child a {
 	border:1px solid transparent;
 	box-shadow:none;
