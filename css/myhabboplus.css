@@ -675,7 +675,7 @@ p.avatar-list-birthday {
 }
 
 #myhp-habbosearch {
-	background-color:#e9e9e9;
+	background-color:#ececec;
 	width:759px;
 	float:left;
 	overflow:hidden;
@@ -686,18 +686,17 @@ p.avatar-list-birthday {
 }
 
 #myhp-habbosearch input[type="text"] {
-	background-color:#fbfbfb;
-	background:linear-gradient(to bottom, #fbfbfb 0%, #f0f0f0 100%);
+	background-color:#ececec;
 	width:699px;
 	padding:10px;
 	font-size:14px;
 	border:0px;
 	border-radius:4px 0px 0px 0px;
+	box-shadow:0px 1px 0px #FFFFFF inset;
 }
 
 #myhp-habbosearch input[type="submit"] {
-	background-color:#2fbd36;
-	background:linear-gradient(to bottom, #2fbd36 0%, #2db333 100%);
+	background-color:#30b834;
 	width:40px;
 	height:38px;
 	padding:6px 10px 14px 10px;
@@ -708,6 +707,9 @@ p.avatar-list-birthday {
 	font-size:16px;
 	font-weight:bold;
 	cursor:pointer;
+	border-left:1px solid #228426;
+	box-shadow:0px 1px 0px rgba(255,255,255,0.3) inset;
+	text-shadow:0px 1px 0px rgba(0,0,0,0.3);
 }
 
 #myhp-habbosearch #myhp-habbosearch-content {
@@ -715,15 +717,19 @@ p.avatar-list-birthday {
 	border-radius:0px 0px 4px 4px;
 }
 
+#myhp-habbosearch #myhp-habbosearch-separator {
+	border-top:1px solid #D8D8D8;
+}
+
 #myhp-habbosearch #myhp-habbosearch-content ul.habblet-list {
-	margin:1px 0px 0px 0px;
+	margin:0px;
 }
 
 #myhp-habbosearch #myhp-habbosearch-content li {
-	background-color:#f6f6f6;
+	background-color:#F2F2F2;
 	padding:5px 10px 5px 35px;
 	color:#424242;
-	border-bottom:1px solid #cdcdcd;
+	border-bottom:1px solid #D8D8D8;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	white-space:nowrap;
@@ -735,15 +741,15 @@ p.avatar-list-birthday {
 	font-weight:normal;
 }
 
-#myhp-habbosearch #myhp-habbosearch-content li.even {
-	background-color:#fafafa;
+#myhp-habbosearch #myhp-habbosearch-content .odd {
+	background-color:#FAFAFA;
 }
 
 #myhp-habbosearch #myhp-habbosearch-content li.online {
 	background-color:#f0f5d5;
 }
 
-#myhp-habbosearch #myhp-habbosearch-content li.online:nth-child(even) {
+#myhp-habbosearch #myhp-habbosearch-content li.online.odd {
 	background-color:#f5fad9;
 }
 
@@ -763,16 +769,28 @@ p.avatar-list-birthday {
 }
 
 #myhp-habbosearch #myhp-habbosearch-content p.paging-navigation a {
-	border:1px solid #307aff;
+	background-color:#FFFFFF;
+	padding:2px 6px;
+	color:#3f3f3f;
+	border:1px solid #c6c6c6;
+	border-radius:12px;
 }
-
 #myhp-habbosearch #myhp-habbosearch-content p.paging-navigation a:hover {
-	border:1px solid #7099df;
+	border:1px solid #73b7c4;
+	background-color:#e3f8fc;
+	color:#142f33;
 }
 
 #myhp-habbosearch #myhp-habbosearch-content p.paging-navigation .current {
-	border:1px solid #307aff;
-	background-color:#307aff;
+	background:#65b2c6;
+	padding:2px 6px;
+	color:#eeeeee;
+	border:1px solid #5390a0;
+	border-radius:12px;
+}
+
+#myhp-habbosearch #myhp-habbosearch-content p.paging-navigation .disabled {
+	display:none;
 }
 
 #updater-button {
