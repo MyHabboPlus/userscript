@@ -1,5 +1,11 @@
 /* MyHabboPlus Styles */
 
+#myhabboplus-logo {
+	background-repeat:no-repeat;
+	width:217px;
+	height:40px;
+}
+
 a.nodecoration {
 	text-decoration:none;
 }
@@ -47,39 +53,40 @@ a.nodecoration {
 
 #myhp-config {
 	background-color:#ffffff;
+	margin:-10px;
 }
 
 #myhp-config h2 {
 	background-color:#d8e0e5;
-	margin:0px -10px 0px -10px;
-	padding:7px 10px;
-	color:#3a5767;
-	border-bottom:1px solid #768791;
-	font-size:12px;
-}
-
-#myhp-config h2:first-child {
-	margin:-10px -10px 0px -10px;
-}
-
-#myhp-config .myhp-config-option {
-	background-color:#f6f6f6;
+	margin:0px;
 	padding:5px 10px;
-	margin:0px -10px;
+	color:#3a5767;
+	border-top:1px solid #C5C5C5;
+	border-bottom:1px solid #768791;
+	font-size:13px;
+}
+
+#myhp-config .myhp-config-box .myhp-config-option {
+	background-color:#F2F2F2;
+	padding:5px 10px;
+	margin:0px;
 	color:#424242;
-	border-bottom:1px solid #cdcdcd;
+	border-top:1px solid #D8D8D8;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	white-space:nowrap;
 }
 
-#myhp-config .myhp-config-option:nth-child(even) {
-	background-color:#fafafa;
+#myhp-config .myhp-config-box .myhp-config-option:nth-child(even) {
+	background-color:#FAFAFA;
 }
 
-#myhp-config .myhp-config-option:last-child {
-	border-bottom:none;
-	margin:0px -10px -10px -10px;
+#myhp-config .myhp-config-box .myhp-config-option:first-child {
+	border-top:none;
+}
+
+#myhp-config h2:first-child {
+	border-top:none;
 }
 
 #myhp-config .myhp-config-option button, #myhp-config .myhp-config-option option, #myhp-config .myhp-config-option select, #myhp-config .myhp-config-option input {
@@ -91,6 +98,28 @@ a.nodecoration {
 	float:left;
 	margin:3px 20px 0px 20px;
 	display:none;
+}
+
+#myhp-config #myhp-config-logo {
+	background-color:#1f1f1f;
+	padding:5px;
+	width:217px;
+	margin:5px 0px;
+	float:left;
+	border-radius:6px;
+}
+
+#search-updates {
+	background-color:#414141;
+	padding:4px;
+	border:1px solid #0e0e0e;
+	border-radius:3px;
+	color:#efefef;
+	font-weight:bold;
+	font-size:14px;
+	text-shadow:0px 1px 0px rgba(0,0,0,0.3);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.3) inset;
+	cursor:pointer;
 }
 
 .myhp-div {

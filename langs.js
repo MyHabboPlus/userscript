@@ -41,7 +41,7 @@ function loadLang() {
                     "LightboxTitle": "¡Atención!",
                     "Preferences": "Preferencias",
                     "PreferencesGeneral": "General",
-                    "PreferencesVersion": "Estás ejecutando la versión",
+                    "PreferencesVersion": "Versión",
                     "PreferencesUpdate": "Buscar actualizaciones",
                     "PreferencesUpdateFreq": "Frecuencia de búsqueda de actualizaciones",
                     "PreferencesUpdateChannel": "Canal de actualización",
@@ -56,6 +56,7 @@ function loadLang() {
                     "PreferencesHabboSearch": "Buscador de habbos",
                     "PreferencesNewArticles": "Alerta de nuevas noticias",
                     "PreferencesTweet": "Mostrar Tweets de web fans",
+                    "PreferencesAbout":"Acerca de MyHabboPlus",
 
                     "HomeInfoDetails": "Detalles de usuario",
                     "HomeInfoNoExist": "Este Habbo no existe.",
@@ -112,7 +113,7 @@ function loadLang() {
                         "LightboxTitle": "Atenção!",
                         "Preferences": "Preferências",
                         "PreferencesGeneral": "Geral",
-                        "PreferencesVersion": "Você está executando a versão",
+                        "PreferencesVersion": "Versão",
                         "PreferencesUpdate": "Procurar por atualizações",
                         "PreferencesUpdateFreq": "Atualizações frequentes",
                         "PreferencesUpdateChannel": "Atualização de canais",
@@ -127,6 +128,7 @@ function loadLang() {
                         "PreferencesHabboSearch": "Pesquise por usuário Habbo",
                         "PreferencesNewArticles": "Alerta para novos artigos",
                         "PreferencesTweet": "Mostrar tweets de fã sites",
+                        "PreferencesAbout":"About MyHabboPlus",//change
 
                         "HomeInfoDetails": "Detalhes do usuário",
                         "HomeInfoNoExist": "Este Habbo não existe.",
@@ -183,7 +185,7 @@ function loadLang() {
                 "LightboxTitle": "Attention!",
                 "Preferences": "Préférence",
                 "PreferencesGeneral": "Général",
-                "PreferencesVersion": "Vous êtes entrain d'utiliser cette version",
+                "PreferencesVersion": "Version",
                 "PreferencesUpdate": "Recherche de mises à jour",
                 "PreferencesUpdateFreq": "Fréquence de mises à jour",
                 "PreferencesUpdateChannel": "Mises à jour de la chaîne",
@@ -198,6 +200,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Rechercher un habbo",
                 "PreferencesNewArticles": "Alertes de nouveaux articles",
                 "PreferencesTweet": "Voir les tweets des fansites",
+                "PreferencesAbout":"About MyHabboPlus",//change
 
                 "HomeInfoDetails": "Informations sur l'utilisateur",
                 "HomeInfoNoExist": "Ce Habbo n'existe pas.",
@@ -254,7 +257,7 @@ function loadLang() {
                 "LightboxTitle": "Attenzione!",
                 "Preferences": "Opzioni",
                 "PreferencesGeneral": "Generale",
-                "PreferencesVersion": "Stai usando la versine",
+                "PreferencesVersion": "Versine",
                 "PreferencesUpdate": "Cerca aggiornamenti",
                 "PreferencesUpdateFreq": "Frequenza di aggiornamento",
                 "PreferencesUpdateChannel": "Tipo di versione",
@@ -324,7 +327,7 @@ function loadLang() {
                 "LightboxTitle": "Aufmerksamkeit!",
                 "Preferences": "Einstellungen",
                 "PreferencesGeneral": "Allgemein",
-                "PreferencesVersion": "Sie führen Version",
+                "PreferencesVersion": "Version",
                 "PreferencesUpdate": "Nach Updates suchen ",
                 "PreferencesUpdateFreq": "Suche nach Häufigkeit der Updates",
                 "PreferencesUpdateChannel": "Kanalaktualisierung ",
@@ -339,6 +342,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Suche Habbos",
                 "PreferencesNewArticles": "Benachrichtigung für neue Nachrichten",
                 "PreferencesTweet": "Tweets anzeigen Fan web",
+                "PreferencesAbout":"About MyHabboPlus",//change
 
                 "HomeInfoDetails": "Benutzerdetails",
                 "HomeInfoNoExist": "Dieser Habbo nicht.",
@@ -396,7 +400,7 @@ function loadLang() {
                 "LightboxTitle": "Dikkat!",
                 "Preferences": "Tercihleri",
                 "PreferencesGeneral": "Genel",
-                "PreferencesVersion": "Eğer çalışan versiyonu",
+                "PreferencesVersion": "Versiyonu",
                 "PreferencesUpdate": "Güncellemeleri kontrol",
                 "PreferencesUpdateFreq": "Güncellemeleri arama frekansı",
                 "PreferencesUpdateChannel": "Kanal yükseltme",
@@ -411,6 +415,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Arama habbos",
                 "PreferencesNewArticles": "Yeni haberler uyar",
                 "PreferencesTweet": "Sayfalar tweets görüntülenir",
+                "PreferencesAbout":"About MyHabboPlus",//change
 
                 "HomeInfoDetails": "Kullanıcı Bilgileri",    
                 "HomeInfoNoExist": "Orada Bu Habbo.",             
@@ -469,7 +474,7 @@ function loadLang() {
                 "LightboxTitle": "Huomio!",
                 "Preferences": "Asetukset",
                 "PreferencesGeneral": "Yleinen",
-                "PreferencesVersion": "Käytössäsi on versio",
+                "PreferencesVersion": "Versio",
                 "PreferencesUpdate": "Hae päivityksiä",
                 "PreferencesUpdateFreq": "Päivitysten taajuus",
                 "PreferencesUpdateChannel": "Kanavan päivitys",
@@ -542,7 +547,7 @@ function loadLang() {
                     "LightboxTitle": "Attention!",
                     "Preferences": "Preferences",
                     "PreferencesGeneral": "General",
-                    "PreferencesVersion": "You are running the version",
+                    "PreferencesVersion": "Version",
                     "PreferencesUpdate": "Search for updates",
                     "PreferencesUpdateFreq": "Frequency for updates",
                     "PreferencesUpdateChannel": "Channel update",
@@ -557,6 +562,7 @@ function loadLang() {
                     "PreferencesHabboSearch": "Habbo Search",
                     "PreferencesNewArticles": "Alert for new articles",
                     "PreferencesTweet": "Show Tweets by fansites",
+                    "PreferencesAbout":"About MyHabboPlus",
 
                     "HomeInfoDetails": "User details",
                     "HomeInfoNoExist": "This Habbo doesn't exist.",

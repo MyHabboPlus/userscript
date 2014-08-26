@@ -115,19 +115,20 @@ if (window.top==window){
     
     $("#header.clearfix").on("click", "#myhp-button-config", function(){
         myhpLightbox(null, text["Preferences"], '<div id="myhp-config">\
-            <h2>'+text["PreferencesGeneral"]+'</h2>\
-            <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesVersion"]+' <strong>'+prefRelease+'</strong>.</div><button id="search-updates">'+text["PreferencesUpdate"]+'</button></div>\
+            <h2>'+text["PreferencesGeneral"]+'</h2><div class="myhp-config-box">\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesUpdateFreq"]+'</div><select id="prefUpdateFreq"><option value="3600000" '+prefUpdateFreq1h+'>1 '+text["Hour"]+'</option><option value="7200000" '+prefUpdateFreq2h+'>2 '+text["Hours"]+'</option><option value="28800000" '+prefUpdateFreq8h+'>8 '+text["Hours"]+'</option><option value="86400000" '+prefUpdateFreq1d+'>1 '+text["Day"]+'</option><option value="604800000"  '+prefUpdateFreq1w+'>1 '+text["Week"]+'</option><option value="none" '+prefUpdateFreqNo+'>'+text["Never"]+'</option></select></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesUpdateChannel"]+'</div><select id="prefUpdateChannel"><option value="release" '+prefUpdateChannelRelease+'>'+text["PreferencesUpdateChannelRelease"]+'</option><option value="beta" '+prefUpdateChannelBeta+'>'+text["PreferencesUpdateChannelBeta"]+'</option><option value="custom" '+prefUpdateChannelCustom+'>'+text["PreferencesUpdateChannelCustom"]+'</option></select>\
-            <br><div id="myhp-customchannel" style="'+prefUpdateCustomChannelStyle+'"><input type="text" value="'+prefUpdateCustomChannel+'" id="prefUpdateCustomChannel" style="width:700px;"></div></div>\
+            <br><div id="myhp-customchannel" style="'+prefUpdateCustomChannelStyle+'"><input type="text" value="'+prefUpdateCustomChannel+'" id="prefUpdateCustomChannel" style="width:610px; margin-bottom:4px;"></div></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["Language"]+'</div><select id="prefLang"><option value="auto" '+prefLangValueAuto+'>'+text["LanguageAuto"]+'</option><option value="es" '+prefLangValueES+'>Español - Spanish</option><option value="en" '+prefLangValueEN+'>English</option><option value="pt" '+prefLangValuePT+'>Português - Portuguese</option><option value="fr" '+prefLangValueFR+'>Français - French</option><option value="it" '+prefLangValueIT+'>Italiano - Italian</option><option value="de" '+prefLangValueDE+'>Deutsch - German</option><option value="tr" '+prefLangValueTR+'>Türk - Turkish</option><option value="fi" '+prefLangValueFI+'>Suomi - Finnish</option></select></div>\
-            <h2>'+text["PreferencesModules"]+'</h2>\
+            </div><h2>'+text["PreferencesModules"]+'</h2><div class="myhp-config-box">\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesTheme"]+'</div><input type="checkbox" id="prefNewHabbo"'+prefNewHabboValue+'></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesHomeInfo"]+'</div><input type="checkbox" id="prefHomeInfo"'+prefHomeInfoValue+'></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesHabboSearch"]+'</div><input type="checkbox" id="prefHabboSearch"'+prefHabboSearchValue+'></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesNewArticles"]+'</div><input type="checkbox" id="prefNewArticles"'+prefNewArticlesValue+'><br><div style="float:left; margin-left:20px; font-style:italic;">http://youtube.com/watch?v=</div><input type="text" value="'+prefNewArticlesVideoValue+'" id="prefNewArticlesVideo" style="float:left;"></div>\
             <div class="myhp-config-option"><div style="float:left;">'+text["PreferencesTweet"]+'</div><input type="checkbox" id="prefTweetList"'+prefTweetListValue+'></div>\
-            ');
+            </div><h2>'+text["PreferencesAbout"]+'</h2><div class="myhp-config-box">\
+            <div class="myhp-config-option"><div id="myhp-config-logo"><a href="http://myhabboplus.com" target="_blank"><div class="myhp-sprites" id="myhabboplus-logo" alt="MyHabboPlus"></div></a></div><div style="float:left; margin:19px 0px 0px 10px;">'+text["PreferencesVersion"]+' <strong>'+prefRelease+'</strong></div><button id="search-updates" style="margin-top:15px;">'+text["PreferencesUpdate"]+'</button></div>\
+            </div>');
         $("#myhp-config").on("click", "#search-updates", function(){
             myhpUpdater("no");
         });
