@@ -128,7 +128,7 @@ function loadLang() {
                         "PreferencesHabboSearch": "Pesquise por usuário Habbo",
                         "PreferencesNewArticles": "Alerta para novos artigos",
                         "PreferencesTweet": "Mostrar tweets de fã sites",
-                        "PreferencesAbout":"About MyHabboPlus",//change
+                        "PreferencesAbout":"Sobre MyHabboPlus",
 
                         "HomeInfoDetails": "Detalhes do usuário",
                         "HomeInfoNoExist": "Este Habbo não existe.",
@@ -139,10 +139,10 @@ function loadLang() {
                         "HomeInfoLastVisit": "Último login:",
                         "HomeInfoFriends": "Friends",
                         "HomeInfoFriendSearch": "Pesquisar...",
-                        "HomeInfoFriendsCommon": "Friends in common",//change
-                        "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                        "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                        "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                        "HomeInfoFriendsCommon": "Amigos em comum",
+                        "HomeInfoFriendsCommonZero": "Não tens nenhum amigo em comum.",
+                        "HomeInfoFriendsCommonYou": "Você só pode comparar seus amigos com outros habbos.",
+                        "HomeInfoFriendsCommonLogin": "Você precisa fazer login para comparar seus amigos.",
                         "HomeInfoBadges": "Emblemas",
                         "HomeInfoRooms": "Quartos",
                         "HomeInfoNoRooms": "Você ainda não tem nenhum Quarto.",
@@ -200,7 +200,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Rechercher un habbo",
                 "PreferencesNewArticles": "Alertes de nouveaux articles",
                 "PreferencesTweet": "Voir les tweets des fansites",
-                "PreferencesAbout":"About MyHabboPlus",//change
+                "PreferencesAbout":"A propos de MyHabboPlus",
 
                 "HomeInfoDetails": "Informations sur l'utilisateur",
                 "HomeInfoNoExist": "Ce Habbo n'existe pas.",
@@ -211,10 +211,10 @@ function loadLang() {
                 "HomeInfoLastVisit": "Dernière connexion:",
                 "HomeInfoFriends": "Amis",
                 "HomeInfoFriendSearch": "Recherche...",
-                "HomeInfoFriendsCommon": "Friends in common",//change
-                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                "HomeInfoFriendsCommon": "Amis en commun",
+                "HomeInfoFriendsCommonZero": "Tu n'as aucun ami en commun.",
+                "HomeInfoFriendsCommonYou": "Tu peux seulement comparer tes amis à d'autres habbos.",
+                "HomeInfoFriendsCommonLogin": "Tu dois être connecté pour voir tes amis.",
                 "HomeInfoBadges": "Badges",
                 "HomeInfoRooms": "Apparts",
                 "HomeInfoNoRooms": "Tu n'as pas d'appart",
@@ -272,6 +272,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Habbo Search",
                 "PreferencesNewArticles": "Alert per Nuovi articoli",
                 "PreferencesTweet": "Mostra i Tweet dei Fansites",
+                "PreferencesAbout":"Info su MyHabboPlus",
 
                 "HomeInfoDetails": "Informazioni Habbo",
                 "HomeInfoNoExist": "Questo Habbo non esiste",
@@ -282,10 +283,10 @@ function loadLang() {
                 "HomeInfoLastVisit": "Ultimo accesso:",
                 "HomeInfoFriends": "Amici",
                 "HomeInfoFriendSearch": "Cerca...",
-                "HomeInfoFriendsCommon": "Friends in common",//change
-                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                "HomeInfoFriendsCommon": "Amici in comune",
+                "HomeInfoFriendsCommonZero": "Tu non hai amici in comune.",
+                "HomeInfoFriendsCommonYou": "Puoi confrontare solo i tuoi amici con altri Habbo.",
+                "HomeInfoFriendsCommonLogin": "Devi effettuare il login per confrontare i tuoi amici.",
                 "HomeInfoRooms": "Stanze",
                 "HomeInfoNoRooms": "Non hai nessuna Stanza",
                 "HomeInfoGroups": "Gruppi",
@@ -342,7 +343,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Suche Habbos",
                 "PreferencesNewArticles": "Benachrichtigung für neue Nachrichten",
                 "PreferencesTweet": "Tweets anzeigen Fan web",
-                "PreferencesAbout":"About MyHabboPlus",//change
+                "PreferencesAbout":"Über MyHabboPlus",
 
                 "HomeInfoDetails": "Benutzerdetails",
                 "HomeInfoNoExist": "Dieser Habbo nicht.",
@@ -353,10 +354,10 @@ function loadLang() {
                 "HomeInfoLastVisit": "Último acceso:",
                 "HomeInfoFriends": " Letzter Zugang:",
                 "HomeInfoFriendSearch": "Suche...",
-                "HomeInfoFriendsCommon": "Friends in common",//change
-                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                "HomeInfoFriendsCommon": "Freunde gemeinsam",
+                "HomeInfoFriendsCommonZero": "Sie haben keine Freunde nicht gemeinsam.",
+                "HomeInfoFriendsCommonYou": "Sie können nur deine Freunde mit anderen Habbos vergleichen.",
+                "HomeInfoFriendsCommonLogin": "Sie müssen sich anmelden um Ihre Freunde zu vergleichen.",
                 "HomeInfoBadges": "Abzeichen",
                 "HomeInfoRooms": "Räume",
                 "HomeInfoNoRooms": "Du hast keine Räume",
@@ -415,7 +416,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Arama habbos",
                 "PreferencesNewArticles": "Yeni haberler uyar",
                 "PreferencesTweet": "Sayfalar tweets görüntülenir",
-                "PreferencesAbout":"About MyHabboPlus",//change
+                "PreferencesAbout":"MyHabboPlus hakkında",
 
                 "HomeInfoDetails": "Kullanıcı Bilgileri",    
                 "HomeInfoNoExist": "Orada Bu Habbo.",             
@@ -426,10 +427,10 @@ function loadLang() {
                 "HomeInfoLastVisit": "Son erişim:",
                 "HomeInfoFriends": "Arkadaşlar",
                 "HomeInfoFriendSearch": "Arama...",
-                "HomeInfoFriendsCommon": "Friends in common",//change
-                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                "HomeInfoFriendsCommon": "Ortak arkadaş",
+                "HomeInfoFriendsCommonZero": "Ortak hiç arkadaşım yok.",
+                "HomeInfoFriendsCommonYou": "Sadece diğer habbos arkadaşlarınızla karşılaştırabilirsiniz.",
+                "HomeInfoFriendsCommonLogin": "Arkadaşlar karşılaştırmak için giriş yapmalısınız.",
                 "HomeInfoBadges": "Plakalar",
                 "HomeInfoRooms": "Oda",
                 "HomeInfoNoRooms": "Siz herhangi bir oda yok",
@@ -489,6 +490,7 @@ function loadLang() {
                 "PreferencesHabboSearch": "Habbo Haku",
                 "PreferencesNewArticles": "Hae uusia artikkeleita",
                 "PreferencesTweet": "Näytä fanisivujen twiitit",
+                "PreferencesAbout":"Tietoja sovelluksesta MyHabboPlus",
 
                 "HomeInfoDetails": "Käyttäjän tiedot",
                 "HomeInfoNoExist": "Tätä Habboa ei ole olemassa!",
@@ -498,11 +500,11 @@ function loadLang() {
                 "HomeInfoStatus": "Tila:",
                 "HomeInfoLastVisit": "Kirjautunut viimeksi:",
                 "HomeInfoFriends": "Kaverit",
-                "HomeInfoFriendSearch": "Hae...",
-                "HomeInfoFriendsCommon": "Friends in common",//change
-                "HomeInfoFriendsCommonZero": "You don't have any friends in common.",//change
-                "HomeInfoFriendsCommonYou": "You can only compare your friends with other habbos.",//change
-                "HomeInfoFriendsCommonLogin": "You need to login to compare your friends.",//change
+                "HomeInfoFriendSearch": "Hae...",         
+                "HomeInfoFriendsCommon": "Yhteiset ystävät",
+                "HomeInfoFriendsCommonZero": "Sinulla ei ole yhteisiä kavereita.",
+                "HomeInfoFriendsCommonYou": "Voit vertailla kavereita vain muiden Habbojen kanssa.",
+                "HomeInfoFriendsCommonLogin": "Sinun pitää kirjautua verrataksesi kavereita.", 
                 "HomeInfoBadges": "Merkit",
                 "HomeInfoRooms": "Huoneet",
                 "HomeInfoNoRooms": "Sinulla ei ole huoneita",
