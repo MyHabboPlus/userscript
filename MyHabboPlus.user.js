@@ -3,12 +3,13 @@
 // @name        MyHabboPlus
 // @namespace   http://myhabboplus.com
 // @description Userscript for Habbo Hotel
-// @version     1.2a1
+// @version     1.2a2
 // @author		iButton
 // @author		Tetule
 
 // @icon        https://raw.github.com/MyHabboPlus/userscript/dev/img/favicon.png
 // @include     http://www.habbo.es/*
+// @include     http://www.habbo.es/*/
 // @include     https://www.habbo.es/*
 // @include     http://www.habbo.com/*
 // @include     https://www.habbo.com/*
