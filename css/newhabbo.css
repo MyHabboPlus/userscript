@@ -26,9 +26,9 @@ body.newhabbo#viewmode.color_red, body.newhabbo#editmode.color_red, body.newhabb
 }
 
 body.newhabbo#viewmode.color_orange, body.newhabbo#editmode.color_orange, body.newhabbo#home.color_orange, body.newhabbo#news.color_orange, body.newhabbo#cbs2credits.color_orange, body.newhabbo#loyalty_points.color_orange, body.newhabbo#credit_offers.color_orange, body.newhabbo#profile.color_orange, body.newhabbo#embedpage.color_orange {
-	background-color:#de9054;
+	background-color:#ff9138;
 	background-image:url('../../images/v3/bg_texture.out.png');
-	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffbe73 0,#de9054 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffbe73 0,#de9054 480px);
+	background-image:url('../../images/v3/bg_texture.out.png'),-webkit-radial-gradient(190px 190px,circle farthest-side,#ffa966 0,#ff9138 480px);background-image:url('../../images/v3/bg_texture.out.png'),-moz-radial-gradient(190px 190px,circle farthest-side,#ffa966 0,#ff9138 480px);background-image:url('../../images/v3/bg_texture.out.png'),-ms-radial-gradient(190px 190px,circle farthest-side,#ffa966 0,#ff9138 480px);background-image:url('../../images/v3/bg_texture.out.png'),radial-gradient(circle farthest-side at 190px 190px,#ffa966 0,#ff9138 480px);
 }
 
 body.newhabbo#viewmode.color_yellow, body.newhabbo#editmode.color_yellow, body.newhabbo#home.color_yellow, body.newhabbo#news.color_yellow, body.newhabbo#cbs2credits.color_yellow, body.newhabbo#loyalty_points.color_yellow, body.newhabbo#credit_offers.color_yellow, body.newhabbo#profile.color_yellow, body.newhabbo#embedpage.color_yellow {
@@ -56,7 +56,7 @@ body.newhabbo#viewmode.color_white, body.newhabbo#editmode.color_white, body.new
 }
 
 body.newhabbo #header-container {
-	background:rgba(16, 16, 22, 0.85);
+	background:rgba(22, 60, 81, 0.94);
 	background-image:none;
 	width:100% !important;
 	padding:0px;
@@ -64,11 +64,41 @@ body.newhabbo #header-container {
 	position:fixed;
 	top:0;
 	z-index:999;
+	overflow:hidden;
+}
+
+body.newhabbo.color_purple #header-container {
+	background:rgba(44, 22, 81, 0.94);
+}
+
+body.newhabbo.color_pink #header-container {
+	background:rgba(89, 33, 70, 0.94);
+}
+
+body.newhabbo.color_red #header-container {
+	background:rgba(81, 22, 22, 0.94);
+}
+
+body.newhabbo.color_orange #header-container {
+	background:rgba(111, 66, 8, 0.94);
+}
+
+body.newhabbo.color_yellow #header-container {
+	background:rgba(81, 72, 22, 0.94);
+}
+
+body.newhabbo.color_green #header-container {
+	background:rgba(34, 81, 22, 0.94);
+}
+
+body.newhabbo.color_black #header-container {
+	background:rgba(15, 33, 42, 0.94);
+	box-shadow:0px 1px 0px 0px rgba(0,0,0, 0.8);
 }
 
 body.newhabbo.color_white #header-container {
-	background:rgba(240, 240, 240, 0.95);
-	box-shadow:0px 1px 0px 0px rgba(0,0,0, 0.25);
+	background:rgba(240, 240, 240, 0.97);
+	box-shadow:0px 1px 0px 0px rgba(0,0,0, 0.15);
 }
 
 body.newhabbo #header h1 a, body.newhabbo #header h1 span {
@@ -79,15 +109,54 @@ body.newhabbo.color_white #header h1 a, body.newhabbo #header h1 span {
 	background-image:url("../../v2/images/habbologo_blackR.gif")
 }
 
-body.newhabbo #navi li strong, body.newhabbo #navi li a {
-	background:none;
-	background-color:white;
-	color:black;
-	border-radius:4px 4px 0px 0px;
+body.newhabbo #navi li {
+	margin:0;
 }
 
-body.newhabbo #navi li:hover strong, body.newhabbo #navi li:hover a {
-	opacity:0.9;
+body.newhabbo #navi li span {
+	width:0px;
+}
+
+body.newhabbo #navi li strong, body.newhabbo #navi li a {
+	background:none;
+	color:#ffffff;
+	border:1px solid transparent;
+	border-left:1px solid rgba(0, 0, 0, 0.9);
+	box-shadow:inset 1px 0px 0px rgba(255,255,255,0.22);
+	height:21px;
+}
+
+body.newhabbo.color_white #navi li strong, body.newhabbo.color_white #navi li a {
+	color:#000000;
+	border-left:1px solid rgba(0, 0, 0, 0.15);
+	box-shadow:inset 1px 0px 0px rgba(255,255,255,0.85);
+}
+
+body.newhabbo #navi li:hover + li a, body.newhabbo #navi li.selected + li a {
+	border:1px solid transparent;
+	box-shadow:none;
+}
+
+body.newhabbo #navi li.selected:first-child {
+	margin-left:-1px;
+}
+
+body.newhabbo #navi li:first-child a {
+	border:1px solid transparent;
+	box-shadow:none;
+}
+
+body.newhabbo #navi li:not(.selected):not(#tab-register-now):hover a {
+	border:1px solid rgba(0, 0, 0, 0.7) !important;
+	border-radius:4px 4px 0px 0px;
+	box-shadow:0px 0px 1px rgba(255,255,255,0.22) !important;
+	background:rgba(255,255,255,0.2);
+}
+
+body.newhabbo.color_white #navi li:not(.selected):not(#tab-register-now):hover a {
+	border:1px solid rgba(0, 0, 0, 0.13) !important;
+	box-shadow:0px 0px 1px rgb(255,255,255) !important;
+	background:rgba(0, 0, 0, 0.03);
 }
 
 body.newhabbo #navi li.selected span {
@@ -100,6 +169,9 @@ body.newhabbo #navi li.selected strong, body.newhabbo #navi li.selected a {
 	color:rgba(255,255,255,0.85);
 	text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 	border-radius:4px 4px 0px 0px;
+	border:1px solid transparent;
+	box-shadow:none;
+	margin:0px 1px;
 }
 
 body.newhabbo.color_purple #navi li.selected strong, body.newhabbo.color_purple #navi li.selected a {
@@ -115,7 +187,7 @@ body.newhabbo.color_red #navi li.selected strong, body.newhabbo.color_red #navi 
 }
 
 body.newhabbo.color_orange #navi li.selected strong, body.newhabbo.color_orange #navi li.selected a {
-	background-color:#ff985c;
+	background-color:#FF9813;
 }
 
 body.newhabbo.color_yellow #navi li.selected strong, body.newhabbo.color_yellow #navi li.selected a {
@@ -149,6 +221,14 @@ body.newhabbo #navi #tab-register-now a {
 	color:white;
 	font-weight:bold;
 	text-shadow:0px 1px 0px #22851b;
+	border-radius:4px 4px 0px 0px;
+	border:1px solid transparent;
+	box-shadow:none;
+}
+
+body.newhabbo #navi #tab-register-now + li a {
+	border:1px solid transparent;
+	box-shadow:none;
 }
 
 body.newhabbo p #enter-hotel-open-medium-link {
@@ -292,7 +372,7 @@ body.newhabbo div.rounded-container div {
 
 body.newhabbo #habbos-online span {
 	background-color:#ffffff;
-	width:121px;
+	width:117px;
 	border-radius:4px;
 }
 
@@ -343,7 +423,7 @@ body.newhabbo #navi2 {
 	padding:0px 0px 8px 0px;
 	line-height:normal;
 	border-radius:0px 0px 4px 4px;
-	box-shadow:0px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 body.newhabbo.color_purple #navi2 {
@@ -359,7 +439,7 @@ body.newhabbo.color_red #navi2 {
 }
 
 body.newhabbo.color_orange #navi2 {
-	background-color:#ff985c;
+	background-color:#FF9813;
 }
 
 body.newhabbo.color_yellow #navi2 {
@@ -396,7 +476,7 @@ body.newhabbo.color_red a, body.newhabbo.color_red #article-wrapper h2 {
 }
 
 body.newhabbo.color_orange a, body.newhabbo.color_orange #article-wrapper h2 {
-	color:#de9054;
+	color:#ff801f;
 }
 
 body.newhabbo.color_yellow a, body.newhabbo.color_yellow #article-wrapper h2 {
@@ -451,11 +531,15 @@ body.newhabbo #container {
 	margin-top:140px;
 }
 
+body.newhabbo.anonymous #myhp-div-home {
+	margin-top:-29px;
+}
+
 body.newhabbo h2.title {
 	background: #595959; background: -moz-linear-gradient(top,  #595959 0%, #4d4d4d 50%, #404040 51%, #333333 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(50%,#4d4d4d), color-stop(51%,#404040), color-stop(100%,#333333)); background: -webkit-linear-gradient(top,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%); background: -ms-linear-gradient(top,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%); background: linear-gradient(to bottom,  #595959 0%,#4d4d4d 50%,#404040 51%,#333333 100%);
 	height:auto;
 	padding:4px 0px !important;
-	margin:-9px -4px;
+	margin:-9px -4px -4px;
 	border-bottom:1px solid #000000;
 	border-radius:3px 3px 0px 0px;
 	box-shadow:inset 0px 1px 0px 0px #737373;
@@ -590,4 +674,8 @@ body.newhabbo #to-hotel #enter-hotel-open-medium-link {
 
 body.newhabbo #logout-content a {
 	color:white;
+}
+
+body.newhabbo #eu_cookie_policy {
+	display:none !important;
 }
