@@ -52,8 +52,13 @@ if (window.top==window){
 
 				$.ajax({url:site+"/habblet/habbosearchcontent?searchString="+habboHomeName, async:false})
 				.done(function(info){
-					habboHomeLastVisit=info.match(/\<span title=\"(.*)\"\>(.*)\<\/span\>/);
-					habboHomeLastVisit=habboHomeLastVisit[1]+". <em>"+habboHomeLastVisit[2]+"</em>";
+					info=info.match(/<ul class=\"habblet-list\">([\s\S]*?)([\s\S]*?)<\/li>/)[0];
+					if(info.match(/\<span title=\"(.*)\"\>(.*)\<\/span\>/)){
+						habboHomeLastVisit=info.match(/\<span title=\"(.*)\"\>(.*)\<\/span\>/);
+						habboHomeLastVisit=habboHomeLastVisit[1]+". <em>"+habboHomeLastVisit[2]+"</em>";
+					}else{
+						habboHomeLastVisit="--";
+					}
 				});
 
 
