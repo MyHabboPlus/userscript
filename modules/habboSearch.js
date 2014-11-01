@@ -8,7 +8,7 @@ if (window.top==window){
         $("#myhp-habbosearch-form").submit(function(event){
                             habboSearch=$("#myhp-habbosearch-form input[type=text]").val();
                             if(habboSearch!=""){
-                               $.ajax({url:site+"/habblet/habbosearchcontent?searchString="+habboSearch, async:false})
+                               $.ajax({url:site+"/habblet/habbosearchcontent?searchString="+encodeURIComponent(habboSearch), async:false})
                                  .done(function(search){
                                     search=search.replace(/<li (.*) homeurl=\"(.*)\" (.*)>/g, '<a href="$2"><li $1 $3>').replace(/<\li>/g, '</li></a>');
                                     $("#myhp-habbosearch-content").html('<div id="myhp-habbosearch-separator"></div>'+search);
