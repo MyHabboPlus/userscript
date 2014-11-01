@@ -50,7 +50,7 @@ if (window.top==window){
 				habboHomeDate=data.match(/\<p\>(.*)\<b\>(.*)\<\/b\>\<\/p\>/)[2];
 				habboHomeStatus=data.match(/\<img src=\"(.*)\/images\/myhabbo\/profile\/habbo_(.*)\.gif\" \/\>/)[0];
 
-				$.ajax({url:site+"/habblet/habbosearchcontent?searchString="+habboHomeName, async:false})
+				$.ajax({url:site+"/habblet/habbosearchcontent?searchString="+encodeURIComponent(habboHomeName), async:false})
 				.done(function(info){
 					info=info.match(/<ul class=\"habblet-list\">([\s\S]*?)([\s\S]*?)<\/li>/)[0];
 					if(info.match(/\<span title=\"(.*)\"\>(.*)\<\/span\>/)){
@@ -62,7 +62,7 @@ if (window.top==window){
 				});
 
 
-				$("#myhp-homeinfo").html('<div id="myhp-homeinfo-container1"><div class="myhp-homeinfo-habbo"><img src="'+site+'/habbo-imaging/avatarimage?user='+habboHomeName+'&direction=3&head_direction=3&action=&size=m" width="64" height="110"></div><div class="myhp-homeinfo-general"><div class="myhp-homeinfo-name">'+habboHomeName+'</div><div class="myhp-homeinfo-motto">'+habboHomeMotto+'</div><div id="myhp-homeinfo-addfriend">'+text["HomeInfoAddFriend"]+'</div></div><div class="myhp-homeinfo-list"><strong>Habbo ID: </strong>'+habboHomeId+'</div><div class="myhp-homeinfo-list"><strong>'+text["HomeInfoDate"]+' </strong>'+habboHomeDate+'</div><div class="myhp-homeinfo-list"><strong>'+text["HomeInfoStatus"]+' </strong>'+habboHomeStatus+'</div><div class="myhp-homeinfo-list" title="'+habboHomeLastVisit.replace(/(<([^>]+)>)/g,"")+'"><strong>'+text["HomeInfoLastVisit"]+' </strong>'+habboHomeLastVisit+'</div></div>');
+				$("#myhp-homeinfo").html('<div id="myhp-homeinfo-container1"><div class="myhp-homeinfo-habbo"><img src="'+site+'/habbo-imaging/avatarimage?user='+encodeURIComponent(habboHomeName)+'&direction=3&head_direction=3&action=&size=m" width="64" height="110"></div><div class="myhp-homeinfo-general"><div class="myhp-homeinfo-name">'+habboHomeName+'</div><div class="myhp-homeinfo-motto">'+habboHomeMotto+'</div><div id="myhp-homeinfo-addfriend">'+text["HomeInfoAddFriend"]+'</div></div><div class="myhp-homeinfo-list"><strong>Habbo ID: </strong>'+habboHomeId+'</div><div class="myhp-homeinfo-list"><strong>'+text["HomeInfoDate"]+' </strong>'+habboHomeDate+'</div><div class="myhp-homeinfo-list"><strong>'+text["HomeInfoStatus"]+' </strong>'+habboHomeStatus+'</div><div class="myhp-homeinfo-list" title="'+habboHomeLastVisit.replace(/(<([^>]+)>)/g,"")+'"><strong>'+text["HomeInfoLastVisit"]+' </strong>'+habboHomeLastVisit+'</div></div>');
 
 				$("#myhp-homeinfo-addfriend").click(function(){
 					habboHomeAddToken=$('meta[name="csrf-token"]').attr("content");
