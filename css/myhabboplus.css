@@ -2,8 +2,8 @@
 
 #myhabboplus-logo {
 	background-repeat:no-repeat;
-	width:217px;
-	height:40px;
+	width:182px;
+	height:29px;
 }
 
 a.nodecoration {
@@ -102,8 +102,7 @@ a.nodecoration {
 
 #myhp-config #myhp-config-logo {
 	background-color:#1f1f1f;
-	padding:5px;
-	width:217px;
+	padding:8px;
 	margin:5px 0px;
 	float:left;
 	border-radius:6px;
@@ -203,7 +202,7 @@ a.nodecoration {
 	height:14px;
 	float:right;
 	background-repeat:no-repeat;
-	background-position:0px -40px;
+	background-position:0px -29px;
 	cursor:pointer;
 	position:static;
 	margin-top:2px;
